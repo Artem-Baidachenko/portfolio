@@ -71,67 +71,76 @@ h6 {
 @font-face { 
 	font-family: "iconfont"; 
 	font-display: swap;
-	src: url("../assets/fonts/iconfont.woff2?1b27c92affe7e722d77a02537ac68885") format("woff2"); 
+	src: url("../assets/fonts/iconfont.woff2?ca6f800e5ed65ded00335d291cbefdec") format("woff2"); 
 } 
 [class*="--icon-"]::before{
 	font-family: iconfont; 
 }
-	[class*="--icon-web"]::before { 
+	[class*="--icon-windows"]::before { 
 		content: "\f101"; 
 	} 
-	[class*="--icon-vip"]::before { 
+	[class*="--icon-web"]::before { 
 		content: "\f102"; 
 	} 
-	[class*="--icon-star"]::before { 
+	[class*="--icon-vip"]::before { 
 		content: "\f103"; 
 	} 
-	[class*="--icon-star-outline"]::before { 
+	[class*="--icon-star"]::before { 
 		content: "\f104"; 
 	} 
-	[class*="--icon-output"]::before { 
+	[class*="--icon-star-outline"]::before { 
 		content: "\f105"; 
 	} 
-	[class*="--icon-output-folder"]::before { 
+	[class*="--icon-output"]::before { 
 		content: "\f106"; 
 	} 
-	[class*="--icon-key"]::before { 
+	[class*="--icon-output-folder"]::before { 
 		content: "\f107"; 
 	} 
-	[class*="--icon-folder"]::before { 
+	[class*="--icon-macOs"]::before { 
 		content: "\f108"; 
 	} 
-	[class*="--icon-eye"]::before { 
+	[class*="--icon-linux"]::before { 
 		content: "\f109"; 
 	} 
-	[class*="--icon-email"]::before { 
+	[class*="--icon-key"]::before { 
 		content: "\f10a"; 
 	} 
-	[class*="--icon-email-verification"]::before { 
+	[class*="--icon-folder"]::before { 
 		content: "\f10b"; 
 	} 
-	[class*="--icon-download"]::before { 
+	[class*="--icon-eye"]::before { 
 		content: "\f10c"; 
 	} 
-	[class*="--icon-chevrons-up-down"]::before { 
+	[class*="--icon-email"]::before { 
 		content: "\f10d"; 
 	} 
-	[class*="--icon-check"]::before { 
+	[class*="--icon-email-verification"]::before { 
 		content: "\f10e"; 
 	} 
-	[class*="--icon-check-buy"]::before { 
+	[class*="--icon-download"]::before { 
 		content: "\f10f"; 
 	} 
-	[class*="--icon-arrow"]::before { 
+	[class*="--icon-chevrons-up-down"]::before { 
 		content: "\f110"; 
 	} 
-	[class*="--icon-arrow-right"]::before { 
+	[class*="--icon-check"]::before { 
 		content: "\f111"; 
 	} 
-	[class*="--icon-arrow-left"]::before { 
+	[class*="--icon-check-buy"]::before { 
 		content: "\f112"; 
 	} 
-	[class*="--icon-arrow-bottom"]::before { 
+	[class*="--icon-arrow"]::before { 
 		content: "\f113"; 
+	} 
+	[class*="--icon-arrow-right"]::before { 
+		content: "\f114"; 
+	} 
+	[class*="--icon-arrow-left"]::before { 
+		content: "\f115"; 
+	} 
+	[class*="--icon-arrow-bottom"]::before { 
+		content: "\f116"; 
 	} 
 
 

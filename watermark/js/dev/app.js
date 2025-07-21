@@ -171,6 +171,7 @@ function menuInit() {
   });
 }
 document.querySelector("[data-fls-menu]") ? window.addEventListener("load", menuInit) : null;
+document.body.style.paddingRight = "0px";
 export {
   slideUp as a,
   dataMediaQueries as d,

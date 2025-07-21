@@ -568,6 +568,7 @@ body {
   }
   [data-fls-menu-open] .menu__body {
     right: 2.5rem;
+    padding-right: 0;
   }
   .menu__list {
     flex-direction: column;

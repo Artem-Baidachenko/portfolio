@@ -5,9 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<title>Buy</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1753124007889"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1753124007889">
-		<link rel="stylesheet" crossorigin="" href="./css/buy.min.css?v=1753124007889">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1753172541040"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1753172541040">
+		<link rel="stylesheet" crossorigin="" href="./css/buy.min.css?v=1753172541040">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -49,7 +49,7 @@
 							<span class="desktop">Download</span>
 							<span class="mob">Open app</span>
 						</a>
-						<a href="#" data-fls-button="" class="actions-header__button button button--icon">Buy</a>
+						<a href="buy.html" data-fls-button="" class="actions-header__button button button--icon">Buy</a>
 					</div>
 					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
 						<span></span>
@@ -91,23 +91,27 @@
 							</div>
 							<div class="form-buy__items">
 								<div class="form-buy__content">
-									<div class="form-buy__line form-buy__line--active">
-										<div class="form-buy__wrap">
-											<div class="form-buy__text form-buy__text--active">Annual plan</div>
-											<div class="form-buy__save">Save 15%</div>
+									<div data-fls-radio="" class="form-buy__options options">
+										<div class="options__items">
+											<input type="radio" name="plan" id="annual" class="options__input">
+											<label for="annual" class="options__item">
+												Annual plan
+												<span class="options__save">Save 15%</span>
+												<span class="options__price">
+													$39.99
+													<span class="text-color">/mo</span>
+												</span>
+											</label>
 										</div>
-										<div class="form-buy__price">
-											$39.99
-											<span>/mo</span>
-										</div>
-									</div>
-									<div class="form-buy__line">
-										<div class="form-buy__wrap">
-											<div class="form-buy__text">Basic plan</div>
-										</div>
-										<div class="form-buy__price">
-											$19.99
-											<span>/mo</span>
+										<div class="options__items">
+											<input type="radio" name="plan" id="basic" class="options__input">
+											<label for="basic" class="options__item">
+												Basic plan
+												<span class="options__price">
+													$19.99
+													<span class="text-color">/mo</span>
+												</span>
+											</label>
 										</div>
 									</div>
 								</div>

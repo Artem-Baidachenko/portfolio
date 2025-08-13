@@ -445,7 +445,7 @@ function preloader() {
       const intervalId = setInterval(() => {
         counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
         counter >= 100 ? addLoadedClass() : null;
-      }, 10);
+      }, 100);
     };
     const preloaderTemplate = `
 			<div class="fls-preloader">

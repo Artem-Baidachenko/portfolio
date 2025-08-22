@@ -1,5 +1,4 @@
 import { s as slideUp, a as slideToggle } from "./app.min.js";
-import "./preloader.min.js";
 let formValidate = {
   getErrors(form) {
     let error = 0;

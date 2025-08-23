@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<style data-fls-preloader="false" rel="preload">
+			body > *:not(.fls-preloader) {opacity: 0;visibility: hidden;}[data-fls-preloader-loaded] body > *:not(.fls-preloader) {transition: opacity 0.5s ease 0s;opacity: 1;visibility: visible;}
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Home</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1755936520856"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1755936520856">
+		<link rel="preload" as="style" href="./css/webfonts.min.css">
+		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.min.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<img class="header__logo" src="./assets/img/logo.svg" alt="Image">
+						<div class="header__menu menu">
+							<button type="button" data-fls-menu="" class="icon-menu">
+								<span></span>
+							</button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link menu__link--active">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Explore</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">About Us</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Contact</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<div data-fls-dynamic=".menu__body, 767.98" class="header__actions actions-header">
+							<a href="#" data-fls-button="" class="actions-header__button button button--login">Login</a>
+							<a href="#" data-fls-button="" class="actions-header__button button">Register</a>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__picture">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/hero/bg-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/hero/bg-1200.webp" type="image/webp">
+								<img class="hero__image ibg" alt="Image" src="./assets/img/hero/bg.webp">
+							</picture>
+						</div>
+						<div data-fls-blockhead="" class="hero__blockhead blockhead blockhead--hero">
+							<h1 class="blockhead__title blockhead__title--size-66">Discover Norway’s Breathtaking Beauty</h1>
+							<div class="blockhead__text">
+								<p>
+									Embark on a journey through Norway’s stunning fjords, vibrant cities, and Northern Lights. Your gateway to unforgettable experiences!
+								</p>
+							</div>
+							<div class="blockhead__action">
+								<a href="#" data-fls-button="" class="blockhead__button button">Explore more</a>
+							</div>
+						</div>
+						<div data-fls-watcher="" class="hero__counters counters">
+							<div data-fls-counters="" class="counters__items">
+								<div data-fls-digcounter="" data-fls-digcounter-speed="800" class="counters__value counters__value--1">3</div>
+								<div class="counters__description">Beautiful Destinations</div>
+							</div>
+							<div data-fls-counters="" class="counters__items">
+								<div data-fls-digcounter="" data-fls-digcounter-speed="800" class="counters__value counters__value--2">8</div>
+								<div class="counters__description">Years of Expertise</div>
+							</div>
+							<div data-fls-counters="" class="counters__items">
+								<div data-fls-digcounter="" data-fls-digcounter-speed="800" class="counters__value counters__value--3">10</div>
+								<div class="counters__description">Happy Travelers</div>
+							</div>
+							<div data-fls-counters="" class="counters__items">
+								<div data-fls-digcounter="" data-fls-digcounter-speed="800" class="counters__value counters__value--4">4.5</div>
+								<div class="counters__description">User Rating</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__adventures adventures">
+					<div class="adventures__container">
+						<div class="adventures__body">
+							<div data-fls-blockhead="" class="adventures__blockhead blockhead">
+								<h2 class="blockhead__title">Exploring Norway’s breathtaking scenery & landscapes</h2>
+								<div class="blockhead__text blockhead__text--size-18 blockhead__text--color">
+									<p>Discover Norway’s Wonders Effortlessly – Your shortcut to one-click adventures!</p>
+								</div>
+							</div>
+							<div class="adventures__wrap">
+								<div class="adventures__items">
+									<!-- Оболонка слайдера -->
+									<div data-fls-slider="" class="adventures__slider swiper">
+										<!-- Частина слайдера, що рухається -->
+										<div class="adventures__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="adventures__slide swiper-slide">
+												<a href="#" class="adventures__link">
+													<picture>
+														<img class="adventures__image ibg" alt="Image" src="./assets/img/adventures/01.webp">
+													</picture>
+												</a>
+												<div class="adventures__content">
+													<h4 class="adventures__title">
+														<a href="#" class="adventures__link-title">Oslo</a>
+													</h4>
+													<div class="adventures__text">
+														<p>Norway</p>
+													</div>
+												</div>
+											</div>
+											<div class="adventures__slide swiper-slide">
+												<a href="#" class="adventures__link">
+													<picture>
+														<img class="adventures__image ibg" alt="Image" src="./assets/img/adventures/02.webp">
+													</picture>
+												</a>
+												<div class="adventures__content">
+													<h4 class="adventures__title">
+														<a href="#" class="adventures__link-title">Bergen</a>
+													</h4>
+													<div class="adventures__text">
+														<p>Norway</p>
+													</div>
+												</div>
+											</div>
+											<div class="adventures__slide swiper-slide">
+												<a href="#" class="adventures__link">
+													<picture>
+														<img class="adventures__image ibg" alt="Image" src="./assets/img/adventures/03.webp">
+													</picture>
+												</a>
+												<div class="adventures__content">
+													<h4 class="adventures__title">
+														<a href="#" class="adventures__link-title">Tromsø</a>
+													</h4>
+													<div class="adventures__text">
+														<p>Norway</p>
+													</div>
+												</div>
+											</div>
+											<div class="adventures__slide swiper-slide">
+												<a href="#" class="adventures__link">
+													<picture>
+														<img class="adventures__image ibg" alt="Image" src="./assets/img/adventures/01.webp">
+													</picture>
+												</a>
+												<div class="adventures__content">
+													<h4 class="adventures__title">
+														<a href="#" class="adventures__link-title">Oslo</a>
+													</h4>
+													<div class="adventures__text">
+														<p>Norway</p>
+													</div>
+												</div>
+											</div>
+											<div class="adventures__slide swiper-slide">
+												<a href="#" class="adventures__link">
+													<picture>
+														<img class="adventures__image ibg" alt="Image" src="./assets/img/adventures/02.webp">
+													</picture>
+												</a>
+												<div class="adventures__content">
+													<h4 class="adventures__title">
+														<a href="#" class="adventures__link-title">Bergen</a>
+													</h4>
+													<div class="adventures__text">
+														<p>Norway</p>
+													</div>
+												</div>
+											</div>
+											<div class="adventures__slide swiper-slide">
+												<a href="#" class="adventures__link">
+													<picture>
+														<img class="adventures__image ibg" alt="Image" src="./assets/img/adventures/03.webp">
+													</picture>
+												</a>
+												<div class="adventures__content">
+													<h4 class="adventures__title">
+														<a href="#" class="adventures__link-title">Tromsø</a>
+													</h4>
+													<div class="adventures__text">
+														<p>Norway</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="adventures__actions">
+									<button type="button" class="adventures__button adventures__button--prev --icon-arrow swiper-button-prev"></button>
+									<button type="button" class="adventures__button adventures__button--next --icon-arrow swiper-button-next"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__works works">
+					<div class="works__container">
+						<div class="works__body">
+							<div class="works__items">
+								<div data-fls-blockhead="" class="works__blockhead blockhead blockhead--gap-16 blockhead--start">
+									<h2 class="blockhead__title">How Our Platform Works</h2>
+									<div class="blockhead__text">
+										<p>
+											Set your travel goals, optimize your itinerary, and explore Norway with ease. Our smart technology helps you plan the perfect adventure, from fjord cruises to Northern Lights excursions.
+										</p>
+									</div>
+								</div>
+								<div class="works__column">
+									<div class="works__item item-works">
+										<div class="item-works__icon">
+											<img src="./assets/img/works/map.svg" alt="Image">
+										</div>
+										<div class="item-works__content">
+											<h4 class="item-works__title">Choose Your Destination</h4>
+											<div class="item-works__text">
+												<p>Select from thousands of beautiful places</p>
+											</div>
+										</div>
+									</div>
+									<div class="works__item item-works">
+										<div class="item-works__icon">
+											<img src="./assets/img/works/personalize.svg" alt="Image">
+										</div>
+										<div class="item-works__content">
+											<h4 class="item-works__title">Personalize Your Trip</h4>
+											<div class="item-works__text">
+												<p>Get custom itineraries tailored to your preferences</p>
+											</div>
+										</div>
+									</div>
+									<div class="works__item item-works">
+										<div class="item-works__icon">
+											<img src="./assets/img/works/travel.svg" alt="Image">
+										</div>
+										<div class="item-works__content">
+											<h4 class="item-works__title">Travel Effortlessly</h4>
+											<div class="item-works__text">
+												<p>Book and explore Norway without hassle</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="works__actions">
+									<a href="#" data-fls-button="" class="works__button button">Book your spot</a>
+								</div>
+							</div>
+							<picture>
+								<img class="works__image" alt="Image" src="./assets/img/works/01.webp">
+							</picture>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__travel travel">
+					<div class="travel__container">
+						<div class="travel__body">
+							<div data-fls-blockhead="" class="travel__blockhead blockhead blockhead--gap-16">
+								<h2 class="blockhead__title">Flexible Travel Plans for Every Explorer</h2>
+								<div class="blockhead__text">
+									<p>
+										Set your travel goals, optimize your itinerary, and explore Norway with ease. Our smart technology helps you plan the perfect adventure, from fjord cruises to Northern Lights excursions.
+									</p>
+								</div>
+							</div>
+							<div class="travel__items">
+								<div class="travel__content">
+									<article class="travel__card card-travel">
+										<a href="#" class="card-travel__link">
+											<picture>
+												<img class="card-travel__image ibg" alt="Image" src="./assets/img/travel/01.webp">
+											</picture>
+										</a>
+										<div class="card-travel__content">
+											<div class="card-travel__top">
+												<h4 class="card-travel__title">
+													<a href="#" class="card-travel__link-title">Fjordview Cabin Retreat</a>
+												</h4>
+												<div class="card-travel__text">
+													<p>Geiranger, Norway</p>
+												</div>
+											</div>
+											<div class="card-travel__items">
+												<div class="card-travel__price">
+													$220/
+													<span>Night</span>
+												</div>
+												<div class="card-travel__rating">⭐ 4.9</div>
+											</div>
+										</div>
+									</article>
+									<article class="travel__card card-travel">
+										<a href="#" class="card-travel__link">
+											<picture>
+												<img class="card-travel__image ibg" alt="Image" src="./assets/img/travel/02.webp">
+											</picture>
+										</a>
+										<div class="card-travel__content">
+											<div class="card-travel__top">
+												<h4 class="card-travel__title">
+													<a href="#" class="card-travel__link-title">Northern Lights Lodge</a>
+												</h4>
+												<div class="card-travel__text">
+													<p>Tromsø, Norway</p>
+												</div>
+											</div>
+											<div class="card-travel__items">
+												<div class="card-travel__price">
+													$250/
+													<span>Night</span>
+												</div>
+												<div class="card-travel__rating">⭐ 4.3</div>
+											</div>
+										</div>
+									</article>
+									<article class="travel__card card-travel">
+										<a href="#" class="card-travel__link">
+											<picture>
+												<img class="card-travel__image ibg" alt="Image" src="./assets/img/travel/03.webp">
+											</picture>
+										</a>
+										<div class="card-travel__content">
+											<div class="card-travel__top">
+												<h4 class="card-travel__title">
+													<a href="#" class="card-travel__link-title">Oslo Forest Hideaway</a>
+												</h4>
+												<div class="card-travel__text">
+													<p>Oslo, Norway</p>
+												</div>
+											</div>
+											<div class="card-travel__items">
+												<div class="card-travel__price">
+													$200/
+													<span>Night</span>
+												</div>
+												<div class="card-travel__rating">⭐ 4.9</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="card-travel__actions">
+									<button type="button" class="card-travel__button button">
+										<span>Explore more</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__reviews reviews">
+					<div class="reviews__container">
+						<div data-fls-blockhead="" class="reviews__blockhead blockhead">
+							<h2 class="blockhead__title">Hear What Travelers Say About Their Nordic Adventure!</h2>
+						</div>
+						<!-- Оболонка слайдера -->
+						<div data-fls-slider="" class="reviews__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="reviews__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="reviews__slide swiper-slide">
+									<blockquote class="reviews__blockquote">
+										"I didn’t just visit Norway—I experienced its soul. A magical journey through fjords and mountains."
+									</blockquote>
+									<div class="reviews__content">
+										<picture>
+											<img class="reviews__image" alt="Image" src="./assets/img/reviews/avatar-1.webp">
+										</picture>
+										<div class="reviews__name">Jordan Blake</div>
+										<div class="reviews__company">Co-Founder, SnapWave</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<blockquote class="reviews__blockquote">
+										"With this platform, I discovered hidden gems, from Arctic landscapes to cozy Scandinavian villages."
+									</blockquote>
+									<div class="reviews__content">
+										<picture>
+											<img class="reviews__image" alt="Image" src="./assets/img/reviews/avatar-2.webp">
+										</picture>
+										<div class="reviews__name">Taylor Morgan</div>
+										<div class="reviews__company">Co-Founder, ClipNest</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<blockquote class="reviews__blockquote">
+										"Exploring the vibrant culture of Norway opened my eyes to new traditions and culinary delights."
+									</blockquote>
+									<div class="reviews__content">
+										<picture>
+											<img class="reviews__image" alt="Image" src="./assets/img/reviews/avatar-3.webp">
+										</picture>
+										<div class="reviews__name">Avery Chen</div>
+										<div class="reviews__company">Co-Founder, TrendSphere</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<blockquote class="reviews__blockquote">
+										"I didn’t just visit Norway—I experienced its soul. A magical journey through fjords and mountains."
+									</blockquote>
+									<div class="reviews__content">
+										<picture>
+											<img class="reviews__image" alt="Image" src="./assets/img/reviews/avatar-1.webp">
+										</picture>
+										<div class="reviews__name">Jordan Blake</div>
+										<div class="reviews__company">Co-Founder, SnapWave</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<blockquote class="reviews__blockquote">
+										"With this platform, I discovered hidden gems, from Arctic landscapes to cozy Scandinavian villages."
+									</blockquote>
+									<div class="reviews__content">
+										<picture>
+											<img class="reviews__image" alt="Image" src="./assets/img/reviews/avatar-2.webp">
+										</picture>
+										<div class="reviews__name">Taylor Morgan</div>
+										<div class="reviews__company">Co-Founder, ClipNest</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<blockquote class="reviews__blockquote">
+										"Exploring the vibrant culture of Norway opened my eyes to new traditions and culinary delights."
+									</blockquote>
+									<div class="reviews__content">
+										<picture>
+											<img class="reviews__image" alt="Image" src="./assets/img/reviews/avatar-3.webp">
+										</picture>
+										<div class="reviews__name">Avery Chen</div>
+										<div class="reviews__company">Co-Founder, TrendSphere</div>
+									</div>
+								</div>
+							</div>
+							<!-- Якщо потрібна пагінація -->
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__explore explore">
+					<div class="explore__container">
+						<div class="explore__body">
+							<div data-fls-blockhead="" class="explore__blockhead blockhead blockhead--gap-16 blockhead--start">
+								<h2 class="blockhead__title blockhead__title--size-28">Ready to Explore Norway?</h2>
+								<div class="blockhead__text blockhead__text--size-18">
+									<p>
+										Start your journey today with expert planning, seamless booking, and unforgettable experiences.
+									</p>
+								</div>
+							</div>
+							<div class="explore__actions">
+								<a href="#" data-fls-button="" class="explore__button button button--grey">Learn more</a>
+								<a href="#" data-fls-button="" class="explore__button button">Start Your Adventure</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__items items-footer">
+							<div class="items-footer__content">
+								<img class="items-footer__logo" src="./assets/img/logo.svg" alt="Image">
+								<div class="items-footer__text">
+									<p>
+										We help travelers explore Norway’s wonders effortlessly with smart planning and expert guides.
+									</p>
+								</div>
+								<div class="items-footer__menu menu-footer">
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Home</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Blog</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Explore</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">About Us</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Contact</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<form action="#" class="items-footer__form form-footer">
+								<h4 class="form-footer__title">Stay up to date</h4>
+								<div class="form-footer__line">
+									<input type="text" name="form[email]" data-error="Error" placeholder="Enter your email" class="form-footer__input">
+									<button type="submit" data-fls-button="" class="form-footer__button button button--white">Subscribe</button>
+								</div>
+							</form>
+						</div>
+						<div class="footer__wrap wrap-footer">
+							<div class="wrap-footer__item">
+								<div class="wrap-footer__copy">© 2025 TinyUI. All rights reserved.</div>
+								<ul class="wrap-footer__list list-footer">
+									<li class="list-footer__item">
+										<a href="#" class="list-footer__link">Terms</a>
+									</li>
+									<li class="list-footer__item">
+										<a href="#" class="list-footer__link">Privacy</a>
+									</li>
+									<li class="list-footer__item">
+										<a href="#" class="list-footer__link">Cookies</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

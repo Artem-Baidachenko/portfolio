@@ -5149,7 +5149,7 @@ function initSliders() {
       speed: 800,
       //touchRatio: 0,
       //simulateTouch: false,
-      //loop: true,
+      loop: true,
       //preloadImages: false,
       //lazy: true,
       /*
@@ -5207,6 +5207,7 @@ function initSliders() {
       observeParents: true,
       slidesPerView: 3,
       initialSlide: 1,
+      centeredSlides: true,
       spaceBetween: 24,
       //autoHeight: true,
       speed: 800,

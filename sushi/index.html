@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<style data-fls-preloader="false" rel="preload">
+			body > *:not(.fls-preloader) {opacity: 0;visibility: hidden;}[data-fls-preloader-loaded] body > *:not(.fls-preloader) {transition: opacity 0.5s ease 0s;opacity: 1;visibility: visible;}
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Home</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1756232056434"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1756232056434">
+		<link rel="preload" as="style" href="./css/webfonts.min.css">
+		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.min.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<img class="header__logo" src="./assets/img/logo.svg" alt="Image">
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link">Menu</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Fine Dining</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Contact</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<div data-fls-dynamic=".menu__body, 767.98" class="header__action">
+							<a href="#" data-fls-button="" class="header__button button">Reservation</a>
+						</div>
+						<button type="button" data-fls-menu="" class="icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__hero hero">
+					<div class="hero__picture">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./assets/img/hero/bg-600.webp" type="image/webp">
+							<source media="(max-width: 1200px)" srcset="./assets/img/hero/bg-1200.webp" type="image/webp">
+							<img class="hero__image ibg" alt="Image" src="./assets/img/hero/bg.webp">
+						</picture>
+					</div>
+					<div class="hero__container">
+						<div data-fls-blockhead="" class="hero__blockhead blockhead">
+							<span class="blockhead__label blockhead__label--size-25">Best sushi in town</span>
+							<h1 class="blockhead__title blockhead__title--size-60">Taste the rich flavor of high quality sushi</h1>
+							<div class="blockhead__text blockhead__text--hero">
+								<p>
+									We only use the five star quality for our menu, come and get the richness in every food we serve.
+								</p>
+							</div>
+							<div class="blockhead__actions">
+								<a href="#" data-fls-button="" class="blockhead__button button button--hero">Go to menu</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__special-menu special-menu">
+					<div class="special-menu__container">
+						<div data-fls-blockhead="" class="special-menu__blockhead blockhead">
+							<span class="blockhead__label">Special menu</span>
+							<h2 class="blockhead__title">Today’s Special</h2>
+							<div class="blockhead__text blockhead__text--special">
+								<p>
+									Special menu oftenly comes different everyday, this is our special food for today
+								</p>
+							</div>
+						</div>
+						<div class="special-menu__column">
+							<article data-fls-card="" class="card">
+								<a href="#" class="card__link">
+									<picture>
+										<img class="card__image ibg" alt="Image" src="./assets/img/special/01.webp">
+									</picture>
+								</a>
+								<div class="card__body">
+									<h4 class="card__title">
+										<a href="#" class="card__link-title">Tuna Sushi</a>
+									</h4>
+									<div class="card__text">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.
+										</p>
+									</div>
+									<div class="card__icons">
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+									</div>
+									<div class="card__action">
+										<a href="#" data-fls-button="" class="card__button button button--order">Order Now</a>
+									</div>
+								</div>
+							</article>
+							<article data-fls-card="" class="card">
+								<a href="#" class="card__link">
+									<picture>
+										<img class="card__image ibg" alt="Image" src="./assets/img/special/02.webp">
+									</picture>
+								</a>
+								<div class="card__body">
+									<h4 class="card__title">
+										<a href="#" class="card__link-title">Salmon Sushi</a>
+									</h4>
+									<div class="card__text">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.
+										</p>
+									</div>
+									<div class="card__icons">
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+									</div>
+									<div class="card__action">
+										<a href="#" data-fls-button="" class="card__button button button--order">Order Now</a>
+									</div>
+								</div>
+							</article>
+							<article data-fls-card="" class="card">
+								<a href="#" class="card__link">
+									<picture>
+										<img class="card__image ibg" alt="Image" src="./assets/img/special/03.webp">
+									</picture>
+								</a>
+								<div class="card__body">
+									<h4 class="card__title">
+										<a href="#" class="card__link-title">Just Sushi</a>
+									</h4>
+									<div class="card__text">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.
+										</p>
+									</div>
+									<div class="card__icons">
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+										<span class="card__icon --icon-star"></span>
+									</div>
+									<div class="card__action">
+										<a href="#" data-fls-button="" class="card__button button button--order">Order Now</a>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="special-menu__picture">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./assets/img/image-divider-600.webp" type="image/webp">
+							<source media="(max-width: 1200px)" srcset="./assets/img/image-divider-1200.webp" type="image/webp">
+							<img class="special-menu__image ibg" alt="Image" src="./assets/img/image-divider.webp">
+						</picture>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__specialities specialities">
+					<div class="specialities__container">
+						<div data-fls-blockhead="" class="specialities__blockhead blockhead">
+							<span class="blockhead__label">Quality food for you</span>
+							<h2 class="blockhead__title">Our Specialities</h2>
+							<div class="blockhead__text blockhead__text--our">
+								<p>Authentic food from our restaurant served with high quality ingredients</p>
+							</div>
+						</div>
+						<div data-fls-tabs="" class="specialities__tabs tabs">
+							<nav data-fls-tabs-titles="" class="tabs__navigation">
+								<button type="button" class="tabs__title --tab-active">Specialities</button>
+								<button type="button" class="tabs__title">Homestyle Sushi</button>
+								<button type="button" class="tabs__title">Steak</button>
+								<button type="button" class="tabs__title">With Rice</button>
+								<button type="button" class="tabs__title">Cocktails</button>
+								<button type="button" class="tabs__title">Wine</button>
+								<button type="button" class="tabs__title">Appetizer</button>
+							</nav>
+							<div data-fls-tabs-body="" class="tabs__content">
+								<div class="tabs__body">
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/dragon-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/dragon-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Dragon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/creamy-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/creamy-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Creamy Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/roll-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/roll-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Roll Salmon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+								</div>
+								<div class="tabs__body">
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/dragon-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/dragon-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Dragon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/creamy-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/creamy-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Creamy Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/roll-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/roll-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Roll Salmon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+								</div>
+								<div class="tabs__body">
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/dragon-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/dragon-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Dragon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/creamy-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/creamy-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Creamy Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/roll-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/roll-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Roll Salmon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+								</div>
+								<div class="tabs__body">
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/dragon-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/dragon-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Dragon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/creamy-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/creamy-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Creamy Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/roll-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/roll-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Roll Salmon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+								</div>
+								<div class="tabs__body">
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/dragon-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/dragon-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Dragon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/creamy-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/creamy-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Creamy Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/roll-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/roll-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Roll Salmon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+								</div>
+								<div class="tabs__body">
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/dragon-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/dragon-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Dragon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/creamy-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/creamy-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Creamy Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/roll-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/roll-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Roll Salmon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+								</div>
+								<div class="tabs__body">
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/dragon-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/dragon-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Dragon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/creamy-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/creamy-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Creamy Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs">
+										<a href="#" class="card-tabs__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/specialities/roll-sushi-600.webp" type="image/webp">
+												<img class="card-tabs__image ibg" alt="Image" src="./assets/img/specialities/roll-sushi.webp">
+											</picture>
+										</a>
+										<div class="card-tabs__body">
+											<h4 class="card-tabs__title">
+												<a href="#" class="card-tabs__link-title">Roll Salmon Sushi</a>
+											</h4>
+											<div class="card-tabs__text">
+												<p>
+													Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.
+												</p>
+											</div>
+											<div class="card-tabs__price">$50</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__dining dining">
+					<div class="dining__container">
+						<div data-fls-blockhead="" class="dining__blockhead blockhead">
+							<span class="blockhead__label">Choose your event</span>
+							<h2 class="blockhead__title">Dining Events</h2>
+							<div class="blockhead__text blockhead__text--margin-30">
+								<p>We provide dining event for your special day with your important people</p>
+							</div>
+						</div>
+						<div data-fls-tabs="" class="dining__tabs tabs">
+							<nav data-fls-tabs-titles="" class="tabs__navigation">
+								<button type="button" class="tabs__title --tab-active">Private Events</button>
+								<button type="button" class="tabs__title">Corporate Events</button>
+							</nav>
+							<div data-fls-tabs-body="" class="tabs__content">
+								<div class="tabs__body">
+									<article class="tabs__card card-tabs-dinning">
+										<a href="#" class="card-tabs-dinning__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/dining/01-600.webp" type="image/webp">
+												<img class="card-tabs-dinning__image ibg" alt="Image" src="./assets/img/dining/01.webp">
+											</picture>
+										</a>
+										<div class="card-tabs-dinning__body">
+											<div class="card-tabs-dinning__content">
+												<div class="card-tabs-dinning__price">$500</div>
+											</div>
+											<div class="card-tabs-dinning__items">
+												<h4 class="card-tabs-dinning__title">Fine Dining</h4>
+												<div class="card-tabs-dinning__text">
+													<p>Bottle of Champagne Fine Sushi Tower For 2+ Dessert</p>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs-dinning">
+										<a href="#" class="card-tabs-dinning__link card-tabs-dinning__link--reverse">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/dining/02-600.webp" type="image/webp">
+												<img class="card-tabs-dinning__image ibg" alt="Image" src="./assets/img/dining/02.webp">
+											</picture>
+										</a>
+										<div class="card-tabs-dinning__body card-tabs-dinning__body--reverse">
+											<div class="card-tabs-dinning__content">
+												<div class="card-tabs-dinning__price">$1000</div>
+											</div>
+											<div class="card-tabs-dinning__items">
+												<h4 class="card-tabs-dinning__title">Gold Dining</h4>
+												<div class="card-tabs-dinning__text">
+													<p>Bottle of Champagne Secret Menu Sushi For 2+ Dessert</p>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs-dinning">
+										<a href="#" class="card-tabs-dinning__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/dining/03-600.webp" type="image/webp">
+												<img class="card-tabs-dinning__image ibg" alt="Image" src="./assets/img/dining/03.webp">
+											</picture>
+										</a>
+										<div class="card-tabs-dinning__body">
+											<div class="card-tabs-dinning__content">
+												<div class="card-tabs-dinning__price">$1500</div>
+											</div>
+											<div class="card-tabs-dinning__items">
+												<h4 class="card-tabs-dinning__title">Royalty Dining</h4>
+												<div class="card-tabs-dinning__text">
+													<p>Bottle of Luxury Champagne Special Menu Sushi For 2+ Royal Dessert</p>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="tabs__body">
+									<article class="tabs__card card-tabs-dinning">
+										<a href="#" class="card-tabs-dinning__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/dining/01-600.webp" type="image/webp">
+												<img class="card-tabs-dinning__image ibg" alt="Image" src="./assets/img/dining/01.webp">
+											</picture>
+										</a>
+										<div class="card-tabs-dinning__body">
+											<div class="card-tabs-dinning__content">
+												<div class="card-tabs-dinning__price">$500</div>
+											</div>
+											<div class="card-tabs-dinning__items">
+												<h4 class="card-tabs-dinning__title">Fine Dining</h4>
+												<div class="card-tabs-dinning__text">
+													<p>Bottle of Champagne Fine Sushi Tower For 2+ Dessert</p>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs-dinning">
+										<a href="#" class="card-tabs-dinning__link card-tabs-dinning__link--reverse">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/dining/02-600.webp" type="image/webp">
+												<img class="card-tabs-dinning__image ibg" alt="Image" src="./assets/img/dining/02.webp">
+											</picture>
+										</a>
+										<div class="card-tabs-dinning__body card-tabs-dinning__body--reverse">
+											<div class="card-tabs-dinning__content">
+												<div class="card-tabs-dinning__price">$1000</div>
+											</div>
+											<div class="card-tabs-dinning__items">
+												<h4 class="card-tabs-dinning__title">Gold Dining</h4>
+												<div class="card-tabs-dinning__text">
+													<p>Bottle of Champagne Secret Menu Sushi For 2+ Dessert</p>
+												</div>
+											</div>
+										</div>
+									</article>
+									<article class="tabs__card card-tabs-dinning">
+										<a href="#" class="card-tabs-dinning__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/dining/03-600.webp" type="image/webp">
+												<img class="card-tabs-dinning__image ibg" alt="Image" src="./assets/img/dining/03.webp">
+											</picture>
+										</a>
+										<div class="card-tabs-dinning__body">
+											<div class="card-tabs-dinning__content">
+												<div class="card-tabs-dinning__price">$1500</div>
+											</div>
+											<div class="card-tabs-dinning__items">
+												<h4 class="card-tabs-dinning__title">Royalty Dining</h4>
+												<div class="card-tabs-dinning__text">
+													<p>Bottle of Luxury Champagne Special Menu Sushi For 2+ Royal Dessert</p>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="dining__picture">
+						<picture>
+							<source media="(max-width: 600px)" srcset="./assets/img/image-fish-600.webp" type="image/webp">
+							<source media="(max-width: 1200px)" srcset="./assets/img/image-fish-1200.webp" type="image/webp">
+							<img class="dining__image ibg" alt="Image" src="./assets/img/image-fish.webp">
+						</picture>
+					</div>
+				</section>
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__about about">
+					<div class="about__container">
+						<div data-fls-blockhead="" class="about__blockhead blockhead">
+							<span class="blockhead__label">About us</span>
+							<h2 class="blockhead__title">Our Story</h2>
+							<div class="blockhead__text">
+								<p>A journey for making successful luxury restaurant with the best services</p>
+							</div>
+						</div>
+						<div class="about__body body-about">
+							<div class="body-about__items">
+								<div class="body-about__picture body-about__picture--1">
+									<a href="#" class="body-about__link">
+										<picture>
+											<img class="body-about__image ibg" alt="Image" src="./assets/img/about/01.webp">
+										</picture>
+									</a>
+								</div>
+								<div class="body-about__picture body-about__picture--2">
+									<a href="#" class="body-about__link">
+										<picture>
+											<img class="body-about__image ibg" alt="Image" src="./assets/img/about/02.webp">
+										</picture>
+									</a>
+								</div>
+								<div class="body-about__picture body-about__picture--3">
+									<a href="#" class="body-about__link">
+										<picture>
+											<img class="body-about__image ibg" alt="Image" src="./assets/img/about/03.webp">
+										</picture>
+									</a>
+								</div>
+							</div>
+							<div class="body-about__content">
+								<div class="body-about__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat urna id leo euismod rhoncus. Aliquam erat volutpat. Nulla id aliquam neque, at dignissim quam. Praesent et lacus accumsan, consequat nisl a, mattis sapien.
+									</p>
+									<p>
+										Nam sodales ullamcorper aliquet. Phasellus ut pretium libero, vitae imperdiet purus. Sed sed tincidunt velit. Aliquam vitae ipsum molestie, vehicula nisi quis, finibus leo.
+									</p>
+								</div>
+								<div class="body-about__actions">
+									<a href="#" data-fls-button="" class="body-about__button button">More about us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__picture">
+					<picture>
+						<source media="(max-width: 600px)" srcset="./assets/img/footer-image-600.webp" type="image/webp">
+						<source media="(max-width: 1200px)" srcset="./assets/img/footer-image-1200.webp" type="image/webp">
+						<img class="footer__image ibg" alt="Image" src="./assets/img/footer-image.webp">
+					</picture>
+				</div>
+				<div class="footer__container">
+					<div class="footer__body">
+						<h2 class="footer__title">We ready to have you the best dining experiences</h2>
+						<div class="footer__items">
+							<div class="footer__item">
+								<div class="footer__icon --icon-map"></div>
+								<div class="footer__text">Jendral Sudirman Street Pahoman Bandar Lampung, Lampung, 35222</div>
+							</div>
+							<div class="footer__item">
+								<div class="footer__icon --icon-call-us"></div>
+								<div class="footer__text footer__text--call">
+									Call us:
+									<a href="tel:+0721471285" class="footer__link">+0721 471 285</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer__actions">
+							<a href="#" data-fls-button="" class="footer__button button button--footer">Reserve a Table</a>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<img class="bottom-footer__logo" src="./assets/img/logo.svg" alt="Image">
+						<div class="bottom-footer__social social">
+							<div class="social__item">
+								<a href="#" class="social__link">Instagram</a>
+							</div>
+							<div class="social__item">
+								<a href="#" class="social__link">Twitter</a>
+							</div>
+							<div class="social__item">
+								<a href="#" class="social__link">Facebook</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

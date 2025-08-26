@@ -5143,7 +5143,7 @@ function initSliders() {
       observer: true,
       observeParents: true,
       slidesPerView: 3,
-      initialSlide: 1,
+      initialSlide: 0,
       spaceBetween: 24,
       //autoHeight: true,
       speed: 800,

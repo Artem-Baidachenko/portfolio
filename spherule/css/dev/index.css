@@ -681,25 +681,29 @@ body {
   display: flex;
   align-items: flex-end;
   position: relative;
-  min-height: 25rem;
+  aspect-ratio: 1;
 }
 .adventures__link {
-  overflow: hidden;
+  position: relative;
+  aspect-ratio: 1;
   border-radius: 1rem;
 }
 .adventures__image {
+  overflow: hidden;
   border-radius: 1rem;
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  transition: scale 0.5s;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 .adventures__content {
-  flex: 1 1 auto;
   position: relative;
-  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1 1 auto;
 }
 .adventures__content::before {
   position: absolute;
@@ -1110,9 +1114,6 @@ body {
   }
   .adventures__actions {
     top: 40%;
-  }
-  .adventures__slide {
-    min-height: 16.875rem;
   }
   .works__container {
     padding-left: 1rem;
@@ -1852,9 +1853,6 @@ body {
   .adventures__button:hover {
     border: 0.125rem solid #cecece;
     color: #cecece;
-  }
-  .adventures__image:hover {
-    scale: 1.01;
   }
   .adventures__link-title:hover {
     color: #cecece;

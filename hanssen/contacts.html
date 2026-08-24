@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<style data-fls-preloader="true" rel="preload">
+			body > *:not(.fls-preloader) {opacity: 0;visibility: hidden;}[data-fls-preloader-loaded] body > *:not(.fls-preloader) {transition: opacity 0.5s ease 0s;opacity: 1;visibility: visible;}
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Contacts</title>
+		<script type="module" crossorigin="" src="./js/contacts.js?v=1785080826184"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1785080826184">
+		<link rel="modulepreload" crossorigin="" href="./js/common.js?v=1785080826184">
+		<link rel="modulepreload" crossorigin="" href="./js/darklite.js?v=1785080826184">
+		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1785080826184">
+		<link rel="stylesheet" crossorigin="" href="./css/darklite.css?v=1785080826184">
+		<link rel="stylesheet" crossorigin="" href="./css/contacts.css?v=1785080826184">
+		<link rel="stylesheet" crossorigin="" href="./css/workblock.css?v=1785080826184">
+		<link rel="stylesheet" crossorigin="" href="./css/social.css?v=1785080826184">
+		<link rel="preload" as="style" href="./css/webfonts.css">
+		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<main class="page">
+				<div data-fls-contacts="" class="contacts">
+					<aside data-fls-workblock="" class="work-block">
+						<div class="work-block__container">
+							<header data-fls-header="" data-fls-darklite="" class="header">
+								<div class="header__container">
+									<a href="index.html" class="header__logo">Hanssen</a>
+									<div class="header__menu menu">
+										<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+											<span></span>
+										</button>
+										<nav class="menu__body">
+											<ul class="menu__list">
+												<li class="menu__item">
+													<a href="work.html" class="menu__link">Portfolio</a>
+												</li>
+												<li class="menu__item">
+													<a href="about.html" class="menu__link">About</a>
+												</li>
+												<li class="menu__item">
+													<a href="blog.html" class="menu__link">Journal</a>
+												</li>
+												<li class="menu__item">
+													<a href="contacts.html" class="menu__link menu__link--active">Contacts</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+									<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+									<div class="header__actions">
+										<button data-fls-darklite-set="" class="header__button"></button>
+									</div>
+								</div>
+							</header>
+							<div class="work-block__body">
+								<figure class="work-block__figure">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/contact-image-600.webp" type="image/webp">
+										<img class="work-block__image ibg" alt="Image" src="./assets/img/contact-image.webp">
+									</picture>
+								</figure>
+							</div>
+						</div>
+					</aside>
+					<div class="contacts__body">
+						<section data-fls-watcher="" data-fls-watcher-once="" class="contact">
+							<div class="contact__container">
+								<h1 class="contact__title">Let’s Talk</h1>
+								<form class="contact__form form-contact" data-fls-form="" action="#">
+									<div class="form-contact__items">
+										<div class="form-contact__line">
+											<input data-fls-input="" required type="text" name="form[]" data-fls-form-errtext="Name required" placeholder="Your Name" class="form-contact__input input">
+										</div>
+										<div class="form-contact__line">
+											<input data-fls-input="" required type="email" name="form[email]" data-fls-form-errtext="E-mail error" placeholder="Your Email" class="form-contact__input input">
+										</div>
+									</div>
+									<textarea data-fls-input="" autocomplete="off" name="form[]" placeholder="Your Message" data-error="Error" class="form-contact__input input"></textarea>
+									<button type="submit" class="form-contact__button">Send Message</button>
+								</form>
+							</div>
+						</section>
+						<section data-fls-watcher="" data-fls-watcher-once="" class="contact-about">
+							<div class="contact-about__container">
+								<div class="contact-about__content">
+									<h2 class="contact-about__title">Prague Studio</h2>
+									<div class="contact-about__body">
+										<div class="contact-about__text">
+											<p>Vinohradská 121, 130 00 Praha 3, Czech Republic</p>
+										</div>
+										<div class="contact-about__actions">
+											<a href="#" class="contact-about__button">Get Directions</a>
+										</div>
+									</div>
+								</div>
+								<figure class="contact-about__picture">
+									<picture>
+										<img class="contact-about__image" alt="Image" src="./assets/img/contact/01.webp">
+									</picture>
+								</figure>
+								<ul data-fls-social="" class="contact-about__social social">
+									<li class="social__item">
+										<a href="#" target="_blank" class="social__link social__link--icon-s-inst">Instagram</a>
+									</li>
+									<li class="social__item">
+										<a href="#" target="_blank" class="social__link social__link--icon-s-pnt">Pinterest</a>
+									</li>
+									<li class="social__item">
+										<a href="#" target="_blank" class="social__link social__link--icon-s-bh">Behance</a>
+									</li>
+									<li class="social__item">
+										<a href="#" target="_blank" class="social__link social__link--icon-s-tw">Twitter</a>
+									</li>
+								</ul>
+							</div>
+						</section>
+						<footer data-fls-footer="" class="footer">
+							<div class="footer__container">
+								<div class="footer__top top-footer">
+									<div class="top-footer__body">
+										<div class="top-footer__items">
+											<div class="top-footer__avatar">
+												<picture>
+													<img alt="Image" src="./assets/img/home/about/avatar.webp">
+												</picture>
+											</div>
+											<div class="top-footer__content">
+												<div class="top-footer__name">Emma Hanssen</div>
+												<div class="top-footer__desc">Photographer</div>
+											</div>
+										</div>
+										<div class="top-footer__actions">
+											<a href="#" data-fls-button="" class="top-footer__button button button--white">More Templates</a>
+										</div>
+									</div>
+								</div>
+								<div data-fls-spollers="991,max" data-fls-spollers-one="" class="footer__spollers spollers">
+									<details class="spollers__items">
+										<summary class="spollers__title">Pages</summary>
+										<ul class="spollers__list">
+											<li class="spollers__item">
+												<a href="#" class="spollers__link">Portfolio</a>
+											</li>
+											<li class="spollers__item">
+												<a href="#" class="spollers__link">About</a>
+											</li>
+											<li class="spollers__item">
+												<a href="#" class="spollers__link">Contact</a>
+											</li>
+										</ul>
+									</details>
+									<details class="spollers__items">
+										<summary class="spollers__title">CMS</summary>
+										<ul class="spollers__list">
+											<li class="spollers__item">
+												<a href="#" class="spollers__link">Work</a>
+											</li>
+											<li class="spollers__item">
+												<a href="#" class="spollers__link">Work Single</a>
+											</li>
+											<li class="spollers__item">
+												<a href="#" class="spollers__link">Blog</a>
+											</li>
+											<li class="spollers__item">
+												<a href="#" class="spollers__link">Blog Single</a>
+											</li>
+										</ul>
+									</details>
+									<details class="spollers__items">
+										<summary class="spollers__title">Utility</summary>
+										<ul class="spollers__list">
+											<li class="spollers__item">
+												<a href="#" class="spollers__link">404</a>
+											</li>
+											<li class="spollers__item">
+												<a href="#" class="spollers__link">Licensing</a>
+											</li>
+										</ul>
+									</details>
+								</div>
+							</div>
+						</footer>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

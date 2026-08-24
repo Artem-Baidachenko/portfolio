@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Tea</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240307122318">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".hero" class="menu__link menu-block"><span>Home</span></a></li>
+							<li class="menu__item"><a href="#" class="menu__link menu-block" data-goto=".advantages" data-goto-header><span>About</span></a></li>
+							<li class="menu__item"><a href="#" data-goto=".blends" class="menu__link menu-block"><span>Products</span></a></li>
+							<li class="menu__item"><a href="#" data-goto=".cup" class="menu__link menu-block"><span>News</span></a></li>
+							<li class="menu__item"><a href="#" data-goto=".gallery" class="menu__link menu-block"><span>Gallery</span></a></li>
+						</ul>
+					</nav>
+				</div>
+				<a href="#" class="header__logo">
+					<svg width="57" height="85" viewBox="0 0 57 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M28.501 0C13.1397 0 0.648876 12.3546 0.648876 27.5422V57.0321C0.648876 72.2178 13.1397 84.5743 28.501 84.5743C43.8622 84.5743 56.3511 72.2178 56.3511 57.0321V27.5422C56.3511 12.3546 43.8564 0 28.501 0ZM29.7104 62.779V58.7857C37.8548 59.057 45.5956 62.3579 51.3856 68.0286C50.7764 69.2584 50.0667 70.4371 49.2638 71.5528C44.1431 66.2313 37.1321 63.0853 29.7104 62.779ZM7.74189 71.5528C6.93898 70.4371 6.22936 69.2584 5.62008 68.0286C11.4102 62.3579 19.151 59.057 27.2953 58.7857V62.779C19.8736 63.0853 12.8626 66.2313 7.74189 71.5528ZM9.83703 57.0321V48.6274C10.3951 48.9815 10.9703 49.313 11.5665 49.6144C14.5478 51.1339 17.854 51.9245 21.2079 51.9199C23.2723 51.9193 25.3256 51.6211 27.3029 51.0346V56.4048C21.3172 56.5865 15.4808 58.2963 10.3608 61.3681C10.0121 59.9485 9.83497 58.493 9.83322 57.0321H9.83703ZM19.0252 8.93398L16.8386 5.19124C18.7563 4.20785 20.7939 3.47224 22.9012 3.00248L23.6631 7.26133C22.0556 7.63535 20.4987 8.19683 19.0252 8.93398ZM28.501 9.0809C33.4496 9.08688 38.1938 11.0336 41.693 14.4941C45.1922 17.9547 47.1607 22.6464 47.1668 27.5403V33.3588C42.9017 33.4935 38.7777 34.9013 35.3368 37.3973C36.6559 33.5003 36.787 29.3057 35.7138 25.3355C34.6406 21.3654 32.4104 17.7951 29.3009 15.0689L28.501 14.3663L27.701 15.0689C24.5906 17.7945 22.3596 21.3646 21.2857 25.3348C20.2117 29.305 20.3424 33.4999 21.6613 37.3973C18.2207 34.9023 14.0974 33.4952 9.83322 33.3607V27.5422C9.83877 22.6476 11.8073 17.9551 15.307 14.4942C18.8067 11.0332 23.5517 9.08639 28.501 9.0809ZM33.3293 7.26133L34.0912 3.00248C36.198 3.47286 38.2354 4.20778 40.1538 5.18936L37.9729 8.93398C36.4976 8.19625 34.9388 7.63476 33.3293 7.26133ZM9.13992 35.7209C12.1129 35.7166 15.0436 36.4174 17.6862 37.7646C21.5803 39.7399 24.6574 42.9947 26.3887 46.9698L5.05249 36.1654C6.39442 35.8698 7.7651 35.7207 9.13992 35.7209ZM29.7104 42.6149V18.9058C32.5034 22.2388 34.0319 26.4316 34.0319 30.7604C34.0319 35.0891 32.5034 39.2819 29.7104 42.6149ZM27.301 42.6149C24.508 39.2819 22.9795 35.0891 22.9795 30.7604C22.9795 26.4316 24.508 22.2388 27.301 18.9058V42.6149ZM39.3119 37.7646C43.2044 35.7844 47.6762 35.2184 51.9475 36.1654L30.6037 46.9698C32.3345 42.9944 35.4117 39.7394 39.3062 37.7646H39.3119ZM49.5819 33.4134V28.7345H53.9493V34.2253C52.5244 33.8038 51.0587 33.5317 49.5762 33.4134H49.5819ZM49.5457 26.3518C49.453 24.7222 49.1653 23.1092 48.6886 21.5467L52.8008 20.0643C53.4431 22.1044 53.8188 24.2173 53.9188 26.3518H49.5457ZM47.8639 19.3089C47.2085 17.8096 46.3775 16.3916 45.3878 15.084L48.7324 12.3094C50.0447 14.0054 51.1328 15.8601 51.9704 17.8284L47.8639 19.3089ZM9.14754 19.3089L5.03725 17.8303C5.876 15.8619 6.96401 14.0068 8.2752 12.3094L11.616 15.0859C10.6263 16.3928 9.79521 17.8102 9.13992 19.3089H9.14754ZM8.32281 21.5467C7.84632 23.1099 7.55861 24.7235 7.46571 26.3536H3.08877C3.18747 24.22 3.56192 22.1076 4.203 20.068L8.32281 21.5467ZM7.42571 28.7364V33.4134C5.94578 33.5319 4.48255 33.804 3.06019 34.2253V28.7364H7.42571ZM25.3011 49.0889C23.9568 49.3863 22.5836 49.5366 21.206 49.5372C18.2337 49.5412 15.3036 48.8404 12.6617 47.4934C8.76727 45.5193 5.69007 42.265 3.9592 38.2901L25.3011 49.0889ZM46.6468 61.3681C41.5285 58.2972 35.6942 56.5875 29.7104 56.4048V51.0346C31.6877 51.6213 33.741 51.9195 35.8054 51.9199C39.16 51.9248 42.4669 51.1342 45.4488 49.6144C46.0449 49.313 46.6201 48.9796 47.1801 48.6274V57.0321C47.1762 58.4932 46.9972 59.9487 46.6468 61.3681ZM44.3402 47.4934C41.6978 48.8412 38.7671 49.5427 35.794 49.5391C34.4172 49.5382 33.0447 49.3885 31.7008 49.0926L53.0427 38.292C51.3112 42.266 48.2341 45.5195 44.3402 47.4934ZM47.182 10.4842L43.8336 13.2644C42.7024 12.0773 41.4356 11.0242 40.0585 10.1263L42.2413 6.38357C44.0564 7.53898 45.7165 8.91679 47.182 10.4842ZM31.7256 2.58997L30.9637 6.84694C30.1458 6.75035 29.3228 6.70129 28.4991 6.70002C27.6715 6.70201 26.8448 6.75107 26.023 6.84694L25.2611 2.58997C27.4029 2.3112 29.5724 2.3112 31.7141 2.58997H31.7256ZM14.7568 6.38545L16.9491 10.1282C15.5717 11.0255 14.3048 12.0787 13.174 13.2663L9.81608 10.4861C11.282 8.91911 12.942 7.54135 14.7568 6.38545ZM3.05829 41.7465C4.22839 43.6705 5.70292 45.3965 7.42571 46.8587V57.0302C7.4244 58.9663 7.69687 60.893 8.2352 62.7545C6.96452 63.6483 5.75554 64.6249 4.61631 65.6779C3.58929 62.908 3.06506 59.9804 3.06781 57.0302L3.05829 41.7465ZM29.7104 71.5397C34.7712 71.8362 39.5238 74.0423 42.9879 77.7028C41.848 78.4887 40.6454 79.1817 39.3919 79.7748C36.7581 77.2973 33.336 75.8013 29.7104 75.5423V71.5397ZM27.301 75.5423C23.6766 75.8014 20.2552 77.2952 17.6195 79.7692C16.3661 79.176 15.1634 78.4831 14.0235 77.6972C17.4878 74.0369 22.2403 71.8309 27.301 71.534V75.5423ZM20.1128 80.7788C22.4966 78.8977 25.4559 77.8731 28.5057 77.8731C31.5555 77.8731 34.5148 78.8977 36.8987 80.7788C31.4657 82.6637 25.5457 82.6637 20.1128 80.7788ZM44.9078 76.2449C42.8215 73.9988 40.2863 72.2057 37.4627 70.9791C34.6391 69.7525 31.5888 69.1191 28.5048 69.1191C25.4208 69.1191 22.3704 69.7525 19.5468 70.9791C16.7232 72.2057 14.188 73.9988 12.1017 76.2449C11.0788 75.3918 10.1249 74.4609 9.24849 73.4609C11.7035 70.8355 14.6811 68.7407 17.9942 67.3079C21.3072 65.8752 24.8841 65.1356 28.5 65.1356C32.1159 65.1356 35.6928 65.8752 39.0058 67.3079C42.3189 68.7407 45.2965 70.8355 47.7515 73.4609C46.8768 74.4612 45.9241 75.3921 44.9021 76.2449H44.9078ZM52.4008 65.6797C51.2581 64.627 50.046 63.6504 48.7724 62.7564C49.3105 60.8949 49.5829 58.9681 49.5819 57.0321V46.8605C51.3041 45.3978 52.7785 43.6719 53.9493 41.7484V57.034C53.9493 59.9838 53.4231 62.9106 52.3951 65.6797H52.4008Z" fill="#7D806A" />
+					</svg>
+					<span>Tealand</span>
+				</a>
+				<div data-da=".menu__body, 767.98" class="header__actions actions-header">
+					<div class="actions-header__cart cart">
+						<a href="#" class="cart__link"></a>
+					</div>
+					<a href="#" class="actions-header__button button button--padding"><span>contact us</span></a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section data-watch="navigator" data-watch-threshold="0.65" class="page__hero hero">
+				<div class="hero__slider swiper">
+					<div class="hero__wrapper swiper-wrapper">
+						<div class="hero__slide swiper-slide">
+							<picture><source srcset="img/hero/01.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="700" data-prlx-cy="700" data-prlx-a="15" class="hero__image ibg" src="img/hero/01.jpg" alt="Tea"></picture>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<picture><source srcset="img/hero/02.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="700" data-prlx-cy="700" data-prlx-a="15" class="hero__image ibg" src="img/hero/02.jpg" alt="Tea"></picture>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<picture><source srcset="img/hero/03.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="700" data-prlx-cy="700" data-prlx-a="15" class="hero__image ibg" src="img/hero/03.jpg" alt="Tea"></picture>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<picture><source srcset="img/hero/04.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="700" data-prlx-cy="700" data-prlx-a="15" class="hero__image ibg" src="img/hero/04.jpg" alt="Tea"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="hero__container">
+					<div data-watch data-watch-once class="hero__content content-hero">
+						<div class="content-hero__section-header section-header">
+							<div class="section-header__label">tealand</div>
+							<h1 class="section-header__title section-header__title--big">Fresh from our tea gardens to your cup</h1>
+							<div class="section-header__text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo enim sit amet magna semper lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo enim sit amet.</p>
+							</div>
+							<div class="section-header__actions">
+								<a href="#" class="section-header__button button"><span>Explore</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="hero__control control-hero">
+						<button type="button" class="control-hero__button swiper-button-prev"></button>
+						<div class="control-hero__scrollbar swiper-scrollbar"></div>
+						<button type="button" class="control-hero__button swiper-button-next"></button>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" data-watch-threshold="0.3" class="page__advantages advantages">
+				<div class="advantages__container">
+					<div data-watch data-watch-once class="advantages__body">
+						<div class="advantages__media media-advantages">
+							<picture><source srcset="img/advantages/01.webp" type="image/webp"><img class="media-advantages__image ibg" src="img/advantages/01.jpg" alt="Image"></picture>
+							<img data-prlx-mouse data-prlx-cx="500" data-prlx-cy="500" data-prlx-a="30" class="media-advantages__tealeaf" src="img/advantages/tealeaf.svg" alt="Image">
+							<img data-prlx-mouse data-prlx-cx="500" data-prlx-cy="500" data-prlx-a="20" class="media-advantages__tealeaf-1" src="img/advantages/tealeaf_1.svg" alt="Image">
+							<picture><source srcset="img/advantages/decor.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="500" data-prlx-cy="500" data-prlx-a="20" data-prlx-dxr data-prlx-dxy class="media-advantages__decor" src="img/advantages/decor.png" alt="Image"></picture>
+						</div>
+						<div class="advantages__content">
+							<div class="advantages__section-header section-header">
+								<div class="section-header__label">advantages</div>
+								<h2 class="section-header__title">The Hidden Health Benefits of Tea</h2>
+								<div class="section-header__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo enim sit amet magna semper lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo enim sit amet.</p>
+								</div>
+								<div class="section-header__actions">
+									<a href="#" class="section-header__button button"><span>Explore</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="page__why why">
+				<div class="why__container">
+					<div data-watch data-watch-once class="why__body">
+						<div class="why__section-header section-header section-header--center">
+							<div class="section-header__label">Since 2022</div>
+							<h2 class="section-header__title">why choose us</h2>
+							<div class="section-header__text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo enim sit amet magna semper lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo enim sit amet.</p>
+							</div>
+						</div>
+						<div class="why__items">
+							<div class="why__item item-why">
+								<img class="item-why__image ibg" src="img/choose_us/01.svg" alt="Image">
+								<h4 class="item-why__title">Organic Products</h4>
+							</div>
+							<div class="why__item item-why">
+								<img class="item-why__image ibg" src="img/choose_us/02.svg" alt="Image">
+								<h4 class="item-why__title">Great customer service</h4>
+							</div>
+							<div class="why__item item-why">
+								<img class="item-why__image ibg" src="img/choose_us/03.svg" alt="Image">
+								<h4 class="item-why__title">Natural Ingredients</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" data-watch-threshold="0.5" class="page__blends blends">
+				<div data-watch data-watch-once class="blends__container">
+					<div class="blends__slider swiper">
+						<div class="blends__top">
+							<div class="blends__section-header section-header">
+								<h2 class="section-header__title">Our Unique Tea Blends</h2>
+							</div>
+							<div class="blends__arrows arrows-blends">
+								<button type="button" class="arrows-blends__button swiper-button-prev"></button>
+								<button type="button" class="arrows-blends__button swiper-button-next"></button>
+							</div>
+						</div>
+						<div class="blends__wrapper swiper-wrapper">
+							<div class="blends__slide swiper-slide">
+								<article class="blends__column column-blends">
+									<a href="#" class="column-blends__image ibg">
+										<picture><source srcset="img/blends/01.webp" type="image/webp"><img src="img/blends/01.png" alt="Image"></picture>
+									</a>
+									<div class="column-blends__content">
+										<h4 class="column-blends__title">
+											<a href="#" class="column-blends__link-title">gynostemma tea</a>
+										</h4>
+										<a href="#" class="column-blends__icon"></a>
+									</div>
+								</article>
+							</div>
+							<div class="blends__slide swiper-slide">
+								<article class="blends__column column-blends">
+									<a href="#" class="column-blends__image ibg">
+										<picture><source srcset="img/blends/02.webp" type="image/webp"><img src="img/blends/02.png" alt="Image"></picture>
+									</a>
+									<div class="column-blends__content">
+										<h4 class="column-blends__title">
+											<a href="#" class="column-blends__link-title">oolong tea</a>
+										</h4>
+										<a href="#" class="column-blends__icon"></a>
+									</div>
+								</article>
+							</div>
+							<div class="blends__slide swiper-slide">
+								<article class="blends__column column-blends">
+									<a href="#" class="column-blends__image ibg">
+										<picture><source srcset="img/blends/03.webp" type="image/webp"><img src="img/blends/03.png" alt="Image"></picture>
+									</a>
+									<div class="column-blends__content">
+										<h4 class="column-blends__title">
+											<a href="#" class="column-blends__link-title">green tea</a>
+										</h4>
+										<a href="#" class="column-blends__icon"></a>
+									</div>
+								</article>
+							</div>
+							<div class="blends__slide swiper-slide">
+								<article class="blends__column column-blends">
+									<a href="#" class="column-blends__image ibg">
+										<picture><source srcset="img/blends/04.webp" type="image/webp"><img src="img/blends/04.png" alt="Image"></picture>
+									</a>
+									<div class="column-blends__content">
+										<h4 class="column-blends__title">
+											<a href="#" class="column-blends__link-title">herbal tea</a>
+										</h4>
+										<a href="#" class="column-blends__icon"></a>
+									</div>
+								</article>
+							</div>
+							<div class="blends__slide swiper-slide">
+								<article class="blends__column column-blends">
+									<a href="#" class="column-blends__image ibg">
+										<picture><source srcset="img/blends/01.webp" type="image/webp"><img src="img/blends/01.png" alt="Image"></picture>
+									</a>
+									<div class="column-blends__content">
+										<h4 class="column-blends__title">
+											<a href="#" class="column-blends__link-title">gynostemma tea</a>
+										</h4>
+										<a href="#" class="column-blends__icon"></a>
+									</div>
+								</article>
+							</div>
+							<div class="blends__slide swiper-slide">
+								<article class="blends__column column-blends">
+									<a href="#" class="column-blends__image ibg">
+										<picture><source srcset="img/blends/02.webp" type="image/webp"><img src="img/blends/02.png" alt="Image"></picture>
+									</a>
+									<div class="column-blends__content">
+										<h4 class="column-blends__title">
+											<a href="#" class="column-blends__link-title">oolong tea</a>
+										</h4>
+										<a href="#" class="column-blends__icon"></a>
+									</div>
+								</article>
+							</div>
+							<div class="blends__slide swiper-slide">
+								<article class="blends__column column-blends">
+									<a href="#" class="column-blends__image ibg">
+										<picture><source srcset="img/blends/03.webp" type="image/webp"><img src="img/blends/03.png" alt="Image"></picture>
+									</a>
+									<div class="column-blends__content">
+										<h4 class="column-blends__title">
+											<a href="#" class="column-blends__link-title">green tea</a>
+										</h4>
+										<a href="#" class="column-blends__icon"></a>
+									</div>
+								</article>
+							</div>
+							<div class="blends__slide swiper-slide">
+								<article class="blends__column column-blends">
+									<a href="#" class="column-blends__image ibg">
+										<picture><source srcset="img/blends/04.webp" type="image/webp"><img src="img/blends/04.png" alt="Image"></picture>
+									</a>
+									<div class="column-blends__content">
+										<h4 class="column-blends__title">
+											<a href="#" class="column-blends__link-title">herbal tea</a>
+										</h4>
+										<a href="#" class="column-blends__icon"></a>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="blends__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="page__best best">
+				<div class="best__decor decor-best">
+					<picture><source srcset="img/menu/tealeaf.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="300" data-prlx-cy="300" data-prlx-a="20" class="decor-best__tealeaf" src="img/menu/tealeaf.png" alt="Image"></picture>
+					<picture><source srcset="img/menu/decor.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="300" data-prlx-cy="300" data-prlx-a="20" data-prlx-dxr data-prlx-dxy class="decor-best__decor" src="img/menu/decor.png" alt="Image"></picture>
+				</div>
+				<div class="best__container">
+					<div data-watch data-watch-once class="best__body">
+						<div class="best__content content-best">
+							<div class="content-best__section-header section-header">
+								<div class="section-header__label">house of tea</div>
+								<h2 class="section-header__title">our best menu</h2>
+							</div>
+							<div class="content-best__table table-best">
+								<div class="table-best__items">
+									<div class="table-best__content">
+										<h5 class="table-best__title">
+											<a href="#" class="table-best__link-title">Oolong Tea</a>
+										</h5>
+										<div class="table-best__line"></div>
+										<div class="table-best__price">$19.85</div>
+									</div>
+									<div class="table-best__text">
+										<p>Theme nullam quis ante velit</p>
+									</div>
+								</div>
+								<div class="table-best__items">
+									<div class="table-best__content">
+										<h5 class="table-best__title">
+											<a href="#" class="table-best__link-title">Matcha</a>
+										</h5>
+										<div class="table-best__line"></div>
+										<div class="table-best__price">$19.00</div>
+									</div>
+									<div class="table-best__text">
+										<p>Theme nullam quis ante velit</p>
+									</div>
+								</div>
+								<div class="table-best__items">
+									<div class="table-best__content">
+										<h5 class="table-best__title">
+											<a href="#" class="table-best__link-title">Rooibos Tea</a>
+										</h5>
+										<div class="table-best__line"></div>
+										<div class="table-best__price">$39.39</div>
+									</div>
+									<div class="table-best__text">
+										<p>Theme nullam quis ante velit</p>
+									</div>
+								</div>
+								<div class="table-best__items">
+									<div class="table-best__content">
+										<h5 class="table-best__title">
+											<a href="#" class="table-best__link-title">Chamomile</a>
+										</h5>
+										<div class="table-best__line"></div>
+										<div class="table-best__price">$42.09</div>
+									</div>
+									<div class="table-best__text">
+										<p>Theme nullam quis ante velit</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="best__link">
+							<picture><source srcset="img/menu/01.webp" type="image/webp"><img class="best__image ibg" src="img/menu/01.jpg" alt="Image"></picture>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__cup cup">
+				<div data-watch data-watch-once class="cup__container">
+					<div class="cup__section-header section-header section-header--center">
+						<h2 class="section-header__title">“Sometimes all you need is a good cup of Tea”</h2>
+					</div>
+					<div class="cup__body body-cup">
+						<div class="body-cup__items">
+							<div class="body-cup__photo">
+								<a href="#" class="body-cup__link">
+									<picture><source srcset="img/cup/01.webp" type="image/webp"><img class="body-cup__image ibg" src="img/cup/01.jpg" alt="Image"></picture>
+								</a>
+							</div>
+							<div class="body-cup__photo">
+								<a href="#" class="body-cup__link">
+									<picture><source srcset="img/cup/02.webp" type="image/webp"><img class="body-cup__image ibg" src="img/cup/02.jpg" alt="Image"></picture>
+								</a>
+							</div>
+						</div>
+						<div class="body-cup__content">
+							<div class="body-cup__item item-cup">
+								<h5 class="item-cup__title">100% Organic</h5>
+								<div class="item-cup__text">
+									<p>Et malesuada fames ac turpis egestas maecenas pharetra convallis met nisl purus.</p>
+								</div>
+							</div>
+							<div class="body-cup__item item-cup">
+								<h5 class="item-cup__title">High Quality</h5>
+								<div class="item-cup__text">
+									<p>Et malesuada fames ac turpis egestas maecenas pharetra convallis met nisl purus.</p>
+								</div>
+							</div>
+							<div class="body-cup__item item-cup">
+								<h5 class="item-cup__title">Always Fresh</h5>
+								<div class="item-cup__text">
+									<p>Et malesuada fames ac turpis egestas maecenas pharetra convallis met nisl purus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cup__decor decor-cup">
+					<picture><source srcset="img/cup/tealeaf.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="300" data-prlx-cy="300" data-prlx-a="20" class="decor-cup__tealeaf" src="img/cup/tealeaf.png" alt="Image"></picture>
+					<picture><source srcset="img/cup/decor-1.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="300" data-prlx-cy="300" data-prlx-a="20" data-prlx-dxr data-prlx-dxy class="decor-cup__decor-1" src="img/cup/decor-1.png" alt="Image"></picture>
+					<picture><source srcset="img/cup/decor-2.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="300" data-prlx-cy="300" data-prlx-a="20" data-prlx-dxr data-prlx-dxy class="decor-cup__decor-2" src="img/cup/decor-2.png" alt="Image"></picture>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="page__believe believe">
+				<div class="believe__container">
+					<div class="believe__section-header section-header section-header--center">
+						<div class="section-header__label">Best seller</div>
+						<h2 class="section-header__title">We Believe in Perfection in the art of Tea. </h2>
+					</div>
+				</div>
+				<div class="believe__body body-believe">
+					<div class="body-believe__container">
+						<div class="body-believe__items">
+							<div class="body-believe__item">
+								<div class="body-believe__icon">
+									<img src="img/believe/icons/star.svg" alt="Star">
+								</div>
+								<div class="body-believe__label">great quality</div>
+							</div>
+							<div class="body-believe__item">
+								<div class="body-believe__icon">
+									<img src="img/believe/icons/case.svg" alt="Case">
+								</div>
+								<div class="body-believe__label">worldwide shipping</div>
+							</div>
+							<div class="body-believe__item">
+								<div class="body-believe__icon">
+									<img src="img/believe/icons/bag-best.svg" alt="Bag-best">
+								</div>
+								<div class="body-believe__label">Best seller</div>
+							</div>
+						</div>
+						<a href="#" class="body-believe__link">
+							<picture><source srcset="img/believe/01.webp" type="image/webp"><img class="body-believe__image ibg" src="img/believe/01.png" alt="Image"></picture>
+						</a>
+						<div class="body-believe__column">
+							<div class="body-believe__item">
+								<div class="body-believe__icon">
+									<img src="img/believe/icons/organic.svg" alt="Organic">
+								</div>
+								<div class="body-believe__label">Organic Product</div>
+							</div>
+							<div class="body-believe__item">
+								<div class="body-believe__icon">
+									<img src="img/believe/icons/gift.svg" alt="Gift">
+								</div>
+								<div class="body-believe__label">loyal-tea rewards</div>
+							</div>
+							<div class="body-believe__item">
+								<div class="body-believe__icon">
+									<img src="img/believe/icons/package.svg" alt="Package">
+								</div>
+								<div class="body-believe__label">eco package</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__gallery gallery">
+				<div data-watch data-watch-once class="gallery__container">
+					<div class="gallery__section-header section-header section-header--inline">
+						<div class="section-header__content">
+							<div class="section-header__label">our gallery</div>
+							<h2 class="section-header__title">You Too Can Have A Tea Like Mine</h2>
+						</div>
+						<div class="section-header__actions">
+							<a href="#" class="section-header__button button"><span>Explore</span></a>
+						</div>
+					</div>
+					<div class="gallery__body body-gallery">
+						<div class="body-gallery__decor decor-gallery">
+							<picture><source srcset="img/gallery/decor.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="300" data-prlx-cy="300" data-prlx-a="20" data-prlx-dxr data-prlx-dxy class="decor-gallery__image ibg" src="img/gallery/decor.png" alt="Image"></picture>
+							<picture><source srcset="img/gallery/decor_1.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="300" data-prlx-cy="300" data-prlx-a="20" data-prlx-dxr data-prlx-dxy class="decor-gallery__image ibg" src="img/gallery/decor_1.png" alt="Image"></picture>
+							<picture><source srcset="img/gallery/decor_2.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="300" data-prlx-cy="300" data-prlx-a="20" data-prlx-dxr data-prlx-dxy class="decor-gallery__image ibg" src="img/gallery/decor_2.png" alt="Image"></picture>
+							<picture><source srcset="img/gallery/decor_3.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="300" data-prlx-cy="300" data-prlx-a="20" data-prlx-dxr data-prlx-dxy class="decor-gallery__image ibg" src="img/gallery/decor_3.png" alt="Image"></picture>
+						</div>
+						<div class="body-gallery__column">
+							<a href="#" class="body-gallery__link">
+								<picture><source srcset="img/gallery/01.webp" type="image/webp"><img class="body-gallery__image ibg" src="img/gallery/01.jpg" alt="Image"></picture>
+							</a>
+							<a href="#" class="body-gallery__link">
+								<picture><source srcset="img/gallery/slide_4.webp" type="image/webp"><img class="body-gallery__image ibg" src="img/gallery/slide_4.jpg" alt="Image"></picture>
+							</a>
+							<a href="#" class="body-gallery__link">
+								<picture><source srcset="img/gallery/02.webp" type="image/webp"><img class="body-gallery__image ibg" src="img/gallery/02.jpg" alt="Image"></picture>
+							</a>
+							<a href="#" class="body-gallery__link">
+								<picture><source srcset="img/gallery/03.webp" type="image/webp"><img class="body-gallery__image ibg" src="img/gallery/03.jpg" alt="Image"></picture>
+							</a>
+						</div>
+						<div class="body-gallery__slider swiper">
+							<div class="body-gallery__wrapper swiper-wrapper">
+								<div class="body-gallery__slide swiper-slide">
+									<a href="#" class="body-gallery__media ibg">
+										<picture><source srcset="img/gallery/slide_1.webp" type="image/webp"><img src="img/gallery/slide_1.jpg" alt="Image"></picture>
+									</a>
+								</div>
+								<div class="body-gallery__slide swiper-slide">
+									<a href="#" class="body-gallery__media ibg">
+										<picture><source srcset="img/gallery/slide_2.webp" type="image/webp"><img src="img/gallery/slide_2.jpg" alt="Image"></picture>
+									</a>
+								</div>
+								<div class="body-gallery__slide swiper-slide">
+									<a href="#" class="body-gallery__media ibg">
+										<picture><source srcset="img/gallery/slide_3.webp" type="image/webp"><img src="img/gallery/slide_3.jpg" alt="Image"></picture>
+									</a>
+								</div>
+								<div class="body-gallery__slide swiper-slide">
+									<a href="#" class="body-gallery__media ibg">
+										<picture><source srcset="img/gallery/slide_4.webp" type="image/webp"><img src="img/gallery/slide_4.jpg" alt="Image"></picture>
+									</a>
+								</div>
+								<div class="body-gallery__slide swiper-slide">
+									<a href="#" class="body-gallery__media ibg">
+										<picture><source srcset="img/gallery/slide_5.webp" type="image/webp"><img src="img/gallery/slide_5.jpg" alt="Image"></picture>
+									</a>
+								</div>
+								<div class="body-gallery__slide swiper-slide">
+									<a href="#" class="body-gallery__media ibg">
+										<picture><source srcset="img/gallery/slide_6.webp" type="image/webp"><img src="img/gallery/slide_6.jpg" alt="Image"></picture>
+									</a>
+								</div>
+								<div class="body-gallery__slide swiper-slide">
+									<a href="#" class="body-gallery__media ibg">
+										<picture><source srcset="img/gallery/slide_1.webp" type="image/webp"><img src="img/gallery/slide_1.jpg" alt="Image"></picture>
+									</a>
+								</div>
+								<div class="body-gallery__slide swiper-slide">
+									<a href="#" class="body-gallery__media ibg">
+										<picture><source srcset="img/gallery/slide_2.webp" type="image/webp"><img src="img/gallery/slide_2.jpg" alt="Image"></picture>
+									</a>
+								</div>
+							</div>
+							<div class="body-gallery__pagination swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body body-footer">
+					<div class="body-footer__contacts contacts-footer">
+						<div class="contacts-footer__wrap">
+							<h5 class="contacts-footer__title">get in touch</h5>
+							<div class="contacts-footer__content">
+								<div class="contacts-footer__item">
+									<a href="tel:0123456789" class="contacts-footer__link">+012-345-6789</a>
+								</div>
+								<div class="contacts-footer__item">
+									<a href="mailto:tealand@contact.com" class="contacts-footer__link">tealand@contact.com</a>
+								</div>
+								<div class="contacts-footer__item">
+									9889 lorem ipsum street, Pellentesque, CA, uSA
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__items items-footer">
+						<div class="items-footer__content">
+							<a href="#" class="items-footer__logo">
+								<svg width="57" height="85" viewBox="0 0 57 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M28.501 0C13.1397 0 0.648876 12.3546 0.648876 27.5422V57.0321C0.648876 72.2178 13.1397 84.5743 28.501 84.5743C43.8622 84.5743 56.3511 72.2178 56.3511 57.0321V27.5422C56.3511 12.3546 43.8564 0 28.501 0ZM29.7104 62.779V58.7857C37.8548 59.057 45.5956 62.3579 51.3856 68.0286C50.7764 69.2584 50.0667 70.4371 49.2638 71.5528C44.1431 66.2313 37.1321 63.0853 29.7104 62.779ZM7.74189 71.5528C6.93898 70.4371 6.22936 69.2584 5.62008 68.0286C11.4102 62.3579 19.151 59.057 27.2953 58.7857V62.779C19.8736 63.0853 12.8626 66.2313 7.74189 71.5528ZM9.83703 57.0321V48.6274C10.3951 48.9815 10.9703 49.313 11.5665 49.6144C14.5478 51.1339 17.854 51.9245 21.2079 51.9199C23.2723 51.9193 25.3256 51.6211 27.3029 51.0346V56.4048C21.3172 56.5865 15.4808 58.2963 10.3608 61.3681C10.0121 59.9485 9.83497 58.493 9.83322 57.0321H9.83703ZM19.0252 8.93398L16.8386 5.19124C18.7563 4.20785 20.7939 3.47224 22.9012 3.00248L23.6631 7.26133C22.0556 7.63535 20.4987 8.19683 19.0252 8.93398ZM28.501 9.0809C33.4496 9.08688 38.1938 11.0336 41.693 14.4941C45.1922 17.9547 47.1607 22.6464 47.1668 27.5403V33.3588C42.9017 33.4935 38.7777 34.9013 35.3368 37.3973C36.6559 33.5003 36.787 29.3057 35.7138 25.3355C34.6406 21.3654 32.4104 17.7951 29.3009 15.0689L28.501 14.3663L27.701 15.0689C24.5906 17.7945 22.3596 21.3646 21.2857 25.3348C20.2117 29.305 20.3424 33.4999 21.6613 37.3973C18.2207 34.9023 14.0974 33.4952 9.83322 33.3607V27.5422C9.83877 22.6476 11.8073 17.9551 15.307 14.4942C18.8067 11.0332 23.5517 9.08639 28.501 9.0809ZM33.3293 7.26133L34.0912 3.00248C36.198 3.47286 38.2354 4.20778 40.1538 5.18936L37.9729 8.93398C36.4976 8.19625 34.9388 7.63476 33.3293 7.26133ZM9.13992 35.7209C12.1129 35.7166 15.0436 36.4174 17.6862 37.7646C21.5803 39.7399 24.6574 42.9947 26.3887 46.9698L5.05249 36.1654C6.39442 35.8698 7.7651 35.7207 9.13992 35.7209ZM29.7104 42.6149V18.9058C32.5034 22.2388 34.0319 26.4316 34.0319 30.7604C34.0319 35.0891 32.5034 39.2819 29.7104 42.6149ZM27.301 42.6149C24.508 39.2819 22.9795 35.0891 22.9795 30.7604C22.9795 26.4316 24.508 22.2388 27.301 18.9058V42.6149ZM39.3119 37.7646C43.2044 35.7844 47.6762 35.2184 51.9475 36.1654L30.6037 46.9698C32.3345 42.9944 35.4117 39.7394 39.3062 37.7646H39.3119ZM49.5819 33.4134V28.7345H53.9493V34.2253C52.5244 33.8038 51.0587 33.5317 49.5762 33.4134H49.5819ZM49.5457 26.3518C49.453 24.7222 49.1653 23.1092 48.6886 21.5467L52.8008 20.0643C53.4431 22.1044 53.8188 24.2173 53.9188 26.3518H49.5457ZM47.8639 19.3089C47.2085 17.8096 46.3775 16.3916 45.3878 15.084L48.7324 12.3094C50.0447 14.0054 51.1328 15.8601 51.9704 17.8284L47.8639 19.3089ZM9.14754 19.3089L5.03725 17.8303C5.876 15.8619 6.96401 14.0068 8.2752 12.3094L11.616 15.0859C10.6263 16.3928 9.79521 17.8102 9.13992 19.3089H9.14754ZM8.32281 21.5467C7.84632 23.1099 7.55861 24.7235 7.46571 26.3536H3.08877C3.18747 24.22 3.56192 22.1076 4.203 20.068L8.32281 21.5467ZM7.42571 28.7364V33.4134C5.94578 33.5319 4.48255 33.804 3.06019 34.2253V28.7364H7.42571ZM25.3011 49.0889C23.9568 49.3863 22.5836 49.5366 21.206 49.5372C18.2337 49.5412 15.3036 48.8404 12.6617 47.4934C8.76727 45.5193 5.69007 42.265 3.9592 38.2901L25.3011 49.0889ZM46.6468 61.3681C41.5285 58.2972 35.6942 56.5875 29.7104 56.4048V51.0346C31.6877 51.6213 33.741 51.9195 35.8054 51.9199C39.16 51.9248 42.4669 51.1342 45.4488 49.6144C46.0449 49.313 46.6201 48.9796 47.1801 48.6274V57.0321C47.1762 58.4932 46.9972 59.9487 46.6468 61.3681ZM44.3402 47.4934C41.6978 48.8412 38.7671 49.5427 35.794 49.5391C34.4172 49.5382 33.0447 49.3885 31.7008 49.0926L53.0427 38.292C51.3112 42.266 48.2341 45.5195 44.3402 47.4934ZM47.182 10.4842L43.8336 13.2644C42.7024 12.0773 41.4356 11.0242 40.0585 10.1263L42.2413 6.38357C44.0564 7.53898 45.7165 8.91679 47.182 10.4842ZM31.7256 2.58997L30.9637 6.84694C30.1458 6.75035 29.3228 6.70129 28.4991 6.70002C27.6715 6.70201 26.8448 6.75107 26.023 6.84694L25.2611 2.58997C27.4029 2.3112 29.5724 2.3112 31.7141 2.58997H31.7256ZM14.7568 6.38545L16.9491 10.1282C15.5717 11.0255 14.3048 12.0787 13.174 13.2663L9.81608 10.4861C11.282 8.91911 12.942 7.54135 14.7568 6.38545ZM3.05829 41.7465C4.22839 43.6705 5.70292 45.3965 7.42571 46.8587V57.0302C7.4244 58.9663 7.69687 60.893 8.2352 62.7545C6.96452 63.6483 5.75554 64.6249 4.61631 65.6779C3.58929 62.908 3.06506 59.9804 3.06781 57.0302L3.05829 41.7465ZM29.7104 71.5397C34.7712 71.8362 39.5238 74.0423 42.9879 77.7028C41.848 78.4887 40.6454 79.1817 39.3919 79.7748C36.7581 77.2973 33.336 75.8013 29.7104 75.5423V71.5397ZM27.301 75.5423C23.6766 75.8014 20.2552 77.2952 17.6195 79.7692C16.3661 79.176 15.1634 78.4831 14.0235 77.6972C17.4878 74.0369 22.2403 71.8309 27.301 71.534V75.5423ZM20.1128 80.7788C22.4966 78.8977 25.4559 77.8731 28.5057 77.8731C31.5555 77.8731 34.5148 78.8977 36.8987 80.7788C31.4657 82.6637 25.5457 82.6637 20.1128 80.7788ZM44.9078 76.2449C42.8215 73.9988 40.2863 72.2057 37.4627 70.9791C34.6391 69.7525 31.5888 69.1191 28.5048 69.1191C25.4208 69.1191 22.3704 69.7525 19.5468 70.9791C16.7232 72.2057 14.188 73.9988 12.1017 76.2449C11.0788 75.3918 10.1249 74.4609 9.24849 73.4609C11.7035 70.8355 14.6811 68.7407 17.9942 67.3079C21.3072 65.8752 24.8841 65.1356 28.5 65.1356C32.1159 65.1356 35.6928 65.8752 39.0058 67.3079C42.3189 68.7407 45.2965 70.8355 47.7515 73.4609C46.8768 74.4612 45.9241 75.3921 44.9021 76.2449H44.9078ZM52.4008 65.6797C51.2581 64.627 50.046 63.6504 48.7724 62.7564C49.3105 60.8949 49.5829 58.9681 49.5819 57.0321V46.8605C51.3041 45.3978 52.7785 43.6719 53.9493 41.7484V57.034C53.9493 59.9838 53.4231 62.9106 52.3951 65.6797H52.4008Z" fill="#7D806A" />
+								</svg>
+								<span>Tealand</span>
+							</a>
+							<div class="items-footer__social social-footer">
+								<a href="#" class="social-footer__icon _icon-tw"></a>
+								<a href="#" class="social-footer__icon _icon-instagram"></a>
+								<a href="#" class="social-footer__icon _icon-tiktok"></a>
+								<a href="#" class="social-footer__icon _icon-youtube"></a>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__work work-footer">
+						<div class="work-footer__content">
+							<h5 class="work-footer__title">working our</h5>
+							<div class="work-footer__item">Monday/Friday 9:00-23:00</div>
+							<div class="work-footer__item">Saturday 10:00-21:00</div>
+							<div class="work-footer__item">Weekend Closed</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copy">
+					Copyright Dotcreativemarket
+				</div>
+				<button type="button" data-goto=".page" class="up _icon-arrow-up"></button>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240307122318"></script>
+</body>
+
+</html>

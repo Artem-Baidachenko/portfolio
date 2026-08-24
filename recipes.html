@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/SFProText-Semibold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/SFProText-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/SFProText-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Recipes</title>
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1787579289469"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1787579289469">
+		<link rel="stylesheet" crossorigin="" href="./css/recipes.min.css?v=1787579289469">
+		<link rel="stylesheet" crossorigin="" href="./css/deliciousrecipe.min.css?v=1787579289469">
+		<link rel="preload" as="style" href="./css/webfonts.min.css">
+		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.min.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<a href="#" class="header__logo">
+						Foodieland
+						<span>
+							.
+							<span></span>
+						</span>
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a target="_blank" href="index.html" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a target="_blank" href="recipes.html" class="menu__link">Recipes</a>
+								</li>
+								<li class="menu__item">
+									<a target="_blank" href="blog.html" class="menu__link">Blog</a>
+								</li>
+								<li class="menu__item">
+									<a target="_blank" href="contacts.html" class="menu__link">Contacts</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<ul data-fls-social="" class="header__social social">
+						<li class="social__item">
+							<a target="_blank" href="#" class="social__link social__link--icon-facebook"></a>
+						</li>
+						<li class="social__item">
+							<a target="_blank" href="#" class="social__link social__link--icon-twitter"></a>
+						</li>
+						<li class="social__item">
+							<a target="_blank" href="#" class="social__link social__link--icon-instagram"></a>
+						</li>
+					</ul>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-recipes="" class="recipes">
+					<section data-fls-herorecipes="" class="hero-recipes">
+						<div class="hero-recipes__container">
+							<div class="hero-recipes__header header-recipes">
+								<figure class="header-recipes__picture">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/recipes/recipe-hero/video-bg-600.webp" type="image/webp">
+										<img class="header-recipes__image ibg" alt="Image" src="./assets/img/recipes/recipe-hero/video-bg.webp">
+									</picture>
+								</figure>
+								<div class="header-recipes__items">
+									<h1 class="header-recipes__title">Health Japanese Fried Rice</h1>
+									<div class="header-recipes__text">
+										<p>
+											Classic Asian cuisine in a healthy setting! We replaced plain rice with brown (or colorful) cabbage, added maximum fresh vegetables, ginger and a minimum of butter. The perfect balance of complex carbohydrates and a vibrant flavor without weight in your stomach.
+										</p>
+									</div>
+									<div class="header-recipes__bottom bottom-recipes">
+										<div class="bottom-recipes__item">
+											<div class="bottom-recipes__text">
+												<p>35 min</p>
+												<p>Easy</p>
+												<p>4 portions</p>
+											</div>
+										</div>
+										<div class="bottom-recipes__actions">
+											<button type="button" class="bottom-recipes__button">Save recipe</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="hero-recipes__body">
+								<div class="hero-recipes__content">
+									<div class="hero-recipes__info info-recipes">
+										<h3 class="info-recipes__title">Nutrition per serving</h3>
+										<table class="info-recipes__table">
+											<tr class="info-recipes__item">
+												<td class="info-recipes__desc">Calories</td>
+												<td class="info-recipes__value">320 kcal</td>
+											</tr>
+											<tr class="info-recipes__item">
+												<td class="info-recipes__desc">Total Fat</td>
+												<td class="info-recipes__value">7 g</td>
+											</tr>
+											<tr class="info-recipes__item">
+												<td class="info-recipes__desc">Protein</td>
+												<td class="info-recipes__value">12 g</td>
+											</tr>
+											<tr class="info-recipes__item">
+												<td class="info-recipes__desc">Carbohydrate</td>
+												<td class="info-recipes__value">52 g</td>
+											</tr>
+											<tr class="info-recipes__item">
+												<td class="info-recipes__desc">Fiber</td>
+												<td class="info-recipes__value">4 g</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="hero-recipes__text">
+									<p>
+										Legendary Asian street food in fitness format. A crumbly brown rice, roasted on the stew with ginger, garlic, egg and juicy vegetables. Nutritious, healthy and weightless in the stomach. A perfect balance of BJU for your form.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section data-fls-ingredients="" class="ingredients">
+						<div class="ingredients__container">
+							<div class="ingredients__body">
+								<div class="ingredients__column column-ingredients">
+									<h2 class="column-ingredients__title">Ingredients</h2>
+									<div class="column-ingredients__item item-ingredients">
+										<h4 class="item-ingredients__title">For main dish</h4>
+										<ul class="item-ingredients__list">
+											<li class="item-ingredients__item">2–3 cups of leftover boiled rice (preferably brown or short-grain)</li>
+											<li class="item-ingredients__item">Eggs — 2</li>
+											<li class="item-ingredients__item">Summer squash or zucchini (cut into sticks or half-moons) — 1 (small)</li>
+											<li class="item-ingredients__item">Leek (or thick green onion, sliced ​​into rounds) — 1/2 stalk</li>
+											<li class="item-ingredients__item">Young cabbage (coarsely shredded) — 100–150 g</li>
+											<li class="item-ingredients__item">For serving: fresh parsley or cilantro.</li>
+										</ul>
+									</div>
+									<div class="column-ingredients__item item-ingredients">
+										<h4 class="item-ingredients__title">For the sauce</h4>
+										<ul class="item-ingredients__list">
+											<li class="item-ingredients__item">
+												Vegetable oil (for frying ideally sesame or coconut oil for aroma) — 2 tablespoons
+											</li>
+											<li class="item-ingredients__item">Soy sauce — 2–3 tablespoons</li>
+										</ul>
+									</div>
+								</div>
+								<div class="ingredients__column column-ingredients">
+									<h2 class="column-ingredients__title">Step-by-step preparation</h2>
+									<div data-fls-itemdirections="" class="column-ingredients__item item-directions">
+										<h4 class="item-directions__title">01. Boil the eggs</h4>
+										<div class="item-directions__text">
+											<p>
+												Place the eggs in boiling water and cook for exactly 5–6 minutes so the yolk remains runny (soft-boiled eggs). Then transfer them to ice water, carefully peel, and cut in half before serving.
+											</p>
+										</div>
+									</div>
+									<div data-fls-itemdirections="" class="column-ingredients__item item-directions">
+										<h4 class="item-directions__title">02. Prepare the vegetables</h4>
+										<div class="item-directions__text">
+											<p>
+												Cut the zucchini into medium-sized batons, the cabbage into squares or wide strips, and the leek into large rings.
+											</p>
+										</div>
+									</div>
+									<div data-fls-itemdirections="" class="column-ingredients__item item-directions">
+										<h4 class="item-directions__title">03. Sauté the vegetables</h4>
+										<div class="item-directions__text">
+											<p>
+												Heat the oil in a deep frying pan or wok over high heat. First, add the leek and zucchini and sauté for 2–3 minutes until lightly golden. Then, add the cabbage and cook for another 2 minutes so it wilts slightly but remains crisp.
+											</p>
+										</div>
+									</div>
+									<div data-fls-itemdirections="" class="column-ingredients__item item-directions">
+										<h4 class="item-directions__title">04. Combine with the rice.</h4>
+										<div class="item-directions__text">
+											<p>
+												Add the cooked, cold rice to the pan with the vegetables. Mix thoroughly, breaking up any clumps. Sauté everything together for another 2–3 minutes so the rice heats through and absorbs the flavors of the vegetables.
+											</p>
+										</div>
+									</div>
+									<div data-fls-itemdirections="" class="column-ingredients__item item-directions">
+										<h4 class="item-directions__title">05. Dress with the sauce</h4>
+										<div class="item-directions__text">
+											<p>
+												Pour the soy sauce around the edges of the pan and quickly stir the rice. Taste it; if necessary, add a little black pepper or a pinch of salt (keep in mind that soy sauce is already salty).
+											</p>
+										</div>
+									</div>
+									<div data-fls-itemdirections="" class="column-ingredients__item item-directions">
+										<h4 class="item-directions__title">06. presentation of the meal</h4>
+										<div class="item-directions__text">
+											<p>
+												Transfer the hot vegetable rice to a plate, place two soft-boiled egg halves alongside, and garnish the dish with a generous sprig of fresh parsley.
+											</p>
+										</div>
+										<figure class="item-directions__picture">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/recipes/ingredients/directions-info/image-600.webp" type="image/webp">
+												<img class="item-directions__image" alt="Image" src="./assets/img/recipes/ingredients/directions-info/image.webp">
+											</picture>
+										</figure>
+									</div>
+								</div>
+							</div>
+							<div class="ingredients__other">
+								<div data-fls-otherrecipe="" class="other-recipe">
+									<h3 class="other-recipe__title">Other Recipe</h3>
+									<div class="other-recipe__column">
+										<article class="other-recipe__card card-other-recipe">
+											<figure class="card-other-recipe__picture">
+												<a href="#" class="card-other-recipe__link">
+													<picture>
+														<img class="card-other-recipe__image ibg" alt="Image" src="./assets/img/recipes/ingredients/other-card/chicken-meatball.webp">
+													</picture>
+												</a>
+											</figure>
+											<div class="card-other-recipe__content">
+												<h4 class="card-other-recipe__title">
+													<a href="#" class="card-other-recipe__link-title">Chicken Meatball with Creamy Chees</a>
+												</h4>
+												<div class="card-other-recipe__author">By Andreas Paula</div>
+											</div>
+										</article>
+										<article class="other-recipe__card card-other-recipe">
+											<figure class="card-other-recipe__picture">
+												<a href="#" class="card-other-recipe__link">
+													<picture>
+														<img class="card-other-recipe__image ibg" alt="Image" src="./assets/img/recipes/ingredients/other-card/creamiest-creamy-chicken.webp">
+													</picture>
+												</a>
+											</figure>
+											<div class="card-other-recipe__content">
+												<h4 class="card-other-recipe__title">
+													<a href="#" class="card-other-recipe__link-title">The Creamiest Creamy Chicken</a>
+												</h4>
+												<div class="card-other-recipe__author">By Andreas Paula</div>
+											</div>
+										</article>
+										<article class="other-recipe__card card-other-recipe">
+											<figure class="card-other-recipe__picture">
+												<a href="#" class="card-other-recipe__link">
+													<picture>
+														<img class="card-other-recipe__image ibg" alt="Image" src="./assets/img/recipes/ingredients/other-card/chicken-rice.webp">
+													</picture>
+												</a>
+											</figure>
+											<div class="card-other-recipe__content">
+												<h4 class="card-other-recipe__title">
+													<a href="#" class="card-other-recipe__link-title">The Best Easy One Pot Chicken and Rice</a>
+												</h4>
+												<div class="card-other-recipe__author">By Andreas Paula</div>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section data-fls-subscribe="" class="subscribe">
+						<div class="subscribe__container">
+							<div class="subscribe__top">
+								<h2 class="subscribe__title">Deliciousness to your inbox</h2>
+								<div class="subscribe__text">
+									<p>
+										Join our gourmet club. Leave your mail today and receive a free gift of "10 dinners in 20 minutes" with your first letter!
+									</p>
+								</div>
+							</div>
+							<form class="subscribe__form form-subscribe" data-fls-form="" action="#" method="POST">
+								<div class="form-subscribe__item">
+									<input required type="email" name="form[email]" data-fls-form-errtext="Your email address" placeholder="Your email address..." class="form-subscribe__input">
+									<button data-fls-dynamic=".form-subscribe, 560" data-fls-button="" type="submit" class="form-subscribe__button button button--dark">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</section>
+					<section data-fls-deliciousrecipe="" data-fls-watcher="" data-fls-watcher-once="" class="delicious-recipe">
+						<div class="delicious-recipe__container">
+							<h2 class="delicious-recipe__title">You may like these recipe too</h2>
+							<ul class="delicious-recipe__cards">
+								<li class="delicious-recipe__item">
+									<article data-fls-recipescard="" class="delicious-recipe__card recipes-card">
+										<div class="recipes-card__top">
+											<a target="_blank" href="recipes.html" class="recipes-card__link-image">
+												<picture>
+													<img class="recipes-card__image" alt="Beef Cheeseburger" src="./assets/img/blog/blog/blog-card/card/vegetarian-recipes.webp">
+												</picture>
+											</a>
+											<button type="button" class="recipes-card__favorite recipes-card__favorite--icon-favorite"></button>
+										</div>
+										<div class="recipes-card__body">
+											<h3 class="recipes-card__title">
+												<a target="_blank" href="recipes.html" class="recipes-card__link-title">Mixed Tropical Fruit Salad with Superfood Boosts</a>
+											</h3>
+											<div class="recipes-card__items">
+												<div class="recipes-card__text">
+													<p>25 min</p>
+													<p>Healthy</p>
+												</div>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="delicious-recipe__item">
+									<article data-fls-recipescard="" class="delicious-recipe__card recipes-card">
+										<div class="recipes-card__top">
+											<a target="_blank" href="recipes.html" class="recipes-card__link-image">
+												<picture>
+													<img class="recipes-card__image" alt="Beef Cheeseburger" src="./assets/img/home/card-recipe/beef-cheeseburger.webp">
+												</picture>
+											</a>
+											<button type="button" class="recipes-card__favorite recipes-card__favorite--icon-favorite"></button>
+										</div>
+										<div class="recipes-card__body">
+											<h3 class="recipes-card__title">
+												<a target="_blank" href="recipes.html" class="recipes-card__link-title">Big and Juicy Wagyu Beef Cheeseburger</a>
+											</h3>
+											<div class="recipes-card__items">
+												<div class="recipes-card__text">
+													<p>25 min</p>
+													<p>Western</p>
+												</div>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="delicious-recipe__item">
+									<article data-fls-recipescard="" class="delicious-recipe__card recipes-card">
+										<div class="recipes-card__top">
+											<a target="_blank" href="recipes.html" class="recipes-card__link-image">
+												<picture>
+													<img class="recipes-card__image" alt="Beef Cheeseburger" src="./assets/img/home/card-recipe/rice-asparagus.webp">
+												</picture>
+											</a>
+											<button type="button" class="recipes-card__favorite recipes-card__favorite--icon-favorite"></button>
+										</div>
+										<div class="recipes-card__body">
+											<h3 class="recipes-card__title">
+												<a target="_blank" href="recipes.html" class="recipes-card__link-title">Healthy Japanese Fried Rice with Asparagus</a>
+											</h3>
+											<div class="recipes-card__items">
+												<div class="recipes-card__text">
+													<p>25 min</p>
+													<p>Healthy</p>
+												</div>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="delicious-recipe__item">
+									<article data-fls-recipescard="" class="delicious-recipe__card recipes-card">
+										<div class="recipes-card__top">
+											<a target="_blank" href="recipes.html" class="recipes-card__link-image">
+												<picture>
+													<img class="recipes-card__image" alt="Beef Cheeseburger" src="./assets/img/home/card-recipe/vegetarian-taco.webp">
+												</picture>
+											</a>
+											<button type="button" class="recipes-card__favorite recipes-card__favorite--icon-favorite"></button>
+										</div>
+										<div class="recipes-card__body">
+											<h3 class="recipes-card__title">
+												<a target="_blank" href="recipes.html" class="recipes-card__link-title">Cauliflower Walnut Vegetarian Taco Meat</a>
+											</h3>
+											<div class="recipes-card__items">
+												<div class="recipes-card__text">
+													<p>25 min</p>
+													<p>Eastern</p>
+												</div>
+											</div>
+										</div>
+									</article>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__content">
+							<a href="#" class="footer__logo">
+								Foodieland
+								<span>
+									.
+									<span></span>
+								</span>
+							</a>
+							<div class="footer__text">
+								<p>Fresh recipes for everyday cooking.</p>
+							</div>
+						</div>
+						<div class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a target="_blank" href="index.html" class="menu-footer__link">Home</a>
+								</li>
+								<li class="menu-footer__item">
+									<a target="_blank" href="recipes.html" class="menu-footer__link">Recipes</a>
+								</li>
+								<li class="menu-footer__item">
+									<a target="_blank" href="blog.html" class="menu-footer__link">Blog</a>
+								</li>
+								<li class="menu-footer__item">
+									<a target="_blank" href="contacts.html" class="menu-footer__link">Contacts</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__items">
+							<div class="footer__copy">
+								<p>© 2026 Foodieland.</p>
+							</div>
+							<ul data-fls-social="" data-fls-dynamic=".footer__content, 620" class="footer__social social">
+								<li class="social__item">
+									<a target="_blank" href="#" class="social__link social__link--icon-facebook"></a>
+								</li>
+								<li class="social__item">
+									<a target="_blank" href="#" class="social__link social__link--icon-twitter"></a>
+								</li>
+								<li class="social__item">
+									<a target="_blank" href="#" class="social__link social__link--icon-instagram"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

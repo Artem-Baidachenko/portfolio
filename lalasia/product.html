@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/EudoxusSans-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/EudoxusSans-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/EudoxusSans-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Product</title>
+		<script type="module" crossorigin="" src="./js/product.js?v=1787740364088"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1787740364088">
+		<link rel="modulepreload" crossorigin="" href="./js/form.js?v=1787740364088">
+		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1787740364088">
+		<link rel="stylesheet" crossorigin="" href="./css/form.css?v=1787740364088">
+		<link rel="stylesheet" crossorigin="" href="./css/product.css?v=1787740364088">
+		<link rel="stylesheet" crossorigin="" href="./css/title.css?v=1787740364088">
+		<link rel="stylesheet" crossorigin="" href="./css/blockhead.css?v=1787740364088">
+		<link rel="stylesheet" crossorigin="" href="./css/card.css?v=1787740364088">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a href="index.html" class="header__logo">
+						<img src="./assets/img/logo.svg" alt="Logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index.html" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="product.html" class="menu__link menu__link--active">Product</a>
+								</li>
+								<li class="menu__item">
+									<a href="services.html" class="menu__link">Services</a>
+								</li>
+								<li class="menu__item">
+									<a href="news.html" class="menu__link">News</a>
+								</li>
+								<li class="menu__item">
+									<a href="about.html" class="menu__link">About Us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions">
+						<div class="header__cart cart">
+							<button type="button" class="cart__button cart__button--icon-bag">
+								<span class="cart__quantity" data-fls-addtocart="">0</span>
+							</button>
+							<div class="cart__body cart__body--empty">
+								<div class="cart__empty">Ваша корзина пуста</div>
+								<ul class="cart__list" data-fls-cart-list=""></ul>
+								<div class="cart__bottom bottom-cart">
+									<div class="bottom-cart__fullprice fullprice">
+										<div class="fullprice__text">Total:</div>
+										<div class="fullprice__price" data-fls-cart-total="">$0.00</div>
+									</div>
+									<div class="bottom-cart__actions">
+										<a href="cardproducts.html" target="_blank" data-fls-button="" class="bottom-cart__button button">Перейти в корзину</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-product="" class="product">
+					<div data-fls-watcher="" data-fls-watcher-once="" class="hero-product">
+						<div class="hero-product__container">
+							<div data-fls-blockhead="" class="hero-product__blockhead blockhead blockhead--center">
+								<h1 data-fls-watcher="" data-fls-watcher-once="" class="blockhead__title blockhead__title--size-64">Products</h1>
+								<div data-fls-watcher="" data-fls-watcher-once="" class="blockhead__text blockhead__text--products">
+									<p>
+										We display products based on the latest products we have, if you want to see our old products please enter the name of the item
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<section data-fls-watcher="" data-fls-watcher-once="" class="body-product">
+						<figure class="body-product__picture">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/products/hero/bg-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/products/hero/bg-1200.webp" type="image/webp">
+								<img class="body-product__image" alt="Image" src="./assets/img/products/hero/bg.webp">
+							</picture>
+						</figure>
+						<div class="body-product__container">
+							<div class="body-product__content content-product">
+								<div class="content-product__labels">
+									<div class="content-product__label">Discount</div>
+								</div>
+								<h2 class="content-product__title">Ramadhan Sale Offer</h2>
+								<div class="content-product__text">
+									<p>Get 40% off for the first transaction on Lalasia</p>
+								</div>
+								<div class="content-product__actions">
+									<a href="#" data-fls-button="" class="content-product__button button button--buy">Buy Now</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<div data-fls-watcher="" data-fls-watcher-once="" class="filters">
+						<div class="filters__container">
+							<form data-fls-form="" action="#" class="filters__form form-filters">
+								<div class="form-filters__body">
+									<div class="form-filters__line">
+										<button type="submit" class="form-filters__search --icon-search"></button>
+										<input data-fls-form-errtext="Search required" data-fls-input="" required autocomplete="off" type="text" name="name" placeholder="Search property" class="form-filters__input">
+									</div>
+									<div class="form-filters__block block-search">
+										<div class="block-search__wrap">
+											<div class="block-search__result">
+												<div class="block-search__categories">
+													<h4 class="block-search__title">Found goods</h4>
+													<ul class="block-search__product product-search">
+														<article data-fls-addtocart-product="" class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<source media="(max-width: 600px)" srcset="./assets/img/news/news/01-600.webp" type="image/webp">
+																	<source media="(max-width: 1200px)" srcset="./assets/img/news/news/01-1200.webp" type="image/webp">
+																	<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/news/news/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h2 class="product-search__title">
+																	<a data-fls-addtocart-title="" target="_blank" href="cardproducts.html" class="product-search__link-title">Wooden Bookshelf</a>
+																</h2>
+																<div class="product-search__text">
+																	<p>Combination of wood and wool</p>
+																</div>
+																<div class="product-search__footer">
+																	<div data-fls-addtocart-price="" class="product-search__price">$82.23</div>
+																	<button data-fls-addtocart-button="" type="button" class="product-search__bag --icon-bag"></button>
+																</div>
+															</div>
+														</article>
+														<article data-fls-addtocart-product="" class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/chair-1-600.webp" type="image/webp">
+																	<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/chair-1-1200.webp" type="image/webp">
+																	<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/product-popular/chair-1.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h2 class="product-search__title">
+																	<a data-fls-addtocart-title="" target="_blank" href="cardproducts.html" class="product-search__link-title">White Aesthetic Chair</a>
+																</h2>
+																<div class="product-search__text">
+																	<p>Combination of wood and wool</p>
+																</div>
+																<div class="product-search__footer">
+																	<div data-fls-addtocart-price="" class="product-search__price">$73.47</div>
+																	<button data-fls-addtocart-button="" type="button" class="product-search__bag --icon-bag"></button>
+																</div>
+															</div>
+														</article>
+														<article data-fls-addtocart-product="" class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/lamp-1-600.webp" type="image/webp">
+																	<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/lamp-1-1200.webp" type="image/webp">
+																	<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/product-popular/lamp-1.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h2 class="product-search__title">
+																	<a data-fls-addtocart-title="" target="_blank" href="cardproducts.html" class="product-search__link-title">Bardono Smart Lamp</a>
+																</h2>
+																<div class="product-search__text">
+																	<p>Easy to use with bluetooth connection</p>
+																</div>
+																<div class="product-search__footer">
+																	<div data-fls-addtocart-price="" class="product-search__price">$62.23</div>
+																	<button data-fls-addtocart-button="" type="button" class="product-search__bag --icon-bag"></button>
+																</div>
+															</div>
+														</article>
+														<article data-fls-addtocart-product="" class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/sofa-1-600.webp" type="image/webp">
+																	<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/sofa-1-1200.webp" type="image/webp">
+																	<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/product-popular/sofa-1.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h2 class="product-search__title">
+																	<a data-fls-addtocart-title="" target="_blank" href="cardproducts.html" class="product-search__link-title">Sofa Empuk Banget</a>
+																</h2>
+																<div class="product-search__text">
+																	<p>Using kapuk randu material</p>
+																</div>
+																<div class="product-search__footer">
+																	<div data-fls-addtocart-price="" class="product-search__price">$58.39</div>
+																	<button data-fls-addtocart-button="" type="button" class="product-search__bag --icon-bag"></button>
+																</div>
+															</div>
+														</article>
+														<article data-fls-addtocart-product="" class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/tables-600.webp" type="image/webp">
+																	<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/tables-1200.webp" type="image/webp">
+																	<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/product-popular/tables.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h2 class="product-search__title">
+																	<a data-fls-addtocart-title="" target="_blank" href="cardproducts.html" class="product-search__link-title">Round Wooden Table</a>
+																</h2>
+																<div class="product-search__text">
+																	<p>Combination of wood and wool</p>
+																</div>
+																<div class="product-search__footer">
+																	<div data-fls-addtocart-price="" class="product-search__price">$52.44</div>
+																	<button data-fls-addtocart-button="" type="button" class="product-search__bag --icon-bag"></button>
+																</div>
+															</div>
+														</article>
+														<article data-fls-addtocart-product="" class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/chair-2-600.webp" type="image/webp">
+																	<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/chair-2-1200.webp" type="image/webp">
+																	<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/product-popular/chair-2.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h2 class="product-search__title">
+																	<a data-fls-addtocart-title="" target="_blank" href="cardproducts.html" class="product-search__link-title">White Aesthetic Chair</a>
+																</h2>
+																<div class="product-search__text">
+																	<p>Combination of wood and wool</p>
+																</div>
+																<div class="product-search__footer">
+																	<div data-fls-addtocart-price="" class="product-search__price">$63.47</div>
+																	<button data-fls-addtocart-button="" type="button" class="product-search__bag --icon-bag"></button>
+																</div>
+															</div>
+														</article>
+														<article data-fls-addtocart-product="" class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/lamp-2-600.webp" type="image/webp">
+																	<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/lamp-2-1200.webp" type="image/webp">
+																	<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/product-popular/lamp-2.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h2 class="product-search__title">
+																	<a data-fls-addtocart-title="" target="_blank" href="cardproducts.html" class="product-search__link-title">Bardono Smart Lamp</a>
+																</h2>
+																<div class="product-search__text">
+																	<p>Easy to use with bluetooth connection</p>
+																</div>
+																<div class="product-search__footer">
+																	<div data-fls-addtocart-price="" class="product-search__price">$32.23</div>
+																	<button data-fls-addtocart-button="" type="button" class="product-search__bag --icon-bag"></button>
+																</div>
+															</div>
+														</article>
+														<article data-fls-addtocart-product="" class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/sofa-2-600.webp" type="image/webp">
+																	<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/sofa-2-1200.webp" type="image/webp">
+																	<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/product-popular/sofa-2.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h2 class="product-search__title">
+																	<a data-fls-addtocart-title="" target="_blank" href="cardproducts.html" class="product-search__link-title">Sofa Empuk Banget</a>
+																</h2>
+																<div class="product-search__text">
+																	<p>Using kapuk randu material</p>
+																</div>
+																<div class="product-search__footer">
+																	<div data-fls-addtocart-price="" class="product-search__price">$58.39</div>
+																	<button data-fls-addtocart-button="" type="button" class="product-search__bag --icon-bag"></button>
+																</div>
+															</div>
+														</article>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<button data-fls-button="" type="submit" class="form-filters__button button">Find Now</button>
+								</div>
+							</form>
+							<div class="filters__actions">
+								<a href="#" data-fls-button="" class="filters__button button button--icon button--icon-filter">Filter</a>
+							</div>
+						</div>
+					</div>
+					<section class="products-total">
+						<div class="products-total__container">
+							<div data-fls-watcher="" data-fls-watcher-once="" class="products-total__top top-products">
+								<div class="top-products__items">
+									<h2 data-fls-title="" class="top-products__title">Total Product</h2>
+									<div class="top-products__quantity">184</div>
+								</div>
+								<div class="top-products__actions">
+									<a href="#" data-fls-button="" class="top-products__button button button--icon button--icon-sort">Sort By</a>
+								</div>
+							</div>
+							<div data-fls-watcher="" data-fls-watcher-once="" class="products-total__items items-products">
+								<article data-fls-card="" data-fls-addtocart-product="" class="card">
+									<a href="cardproducts.html" class="card__link">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/chair-1-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/chair-1-1200.webp" type="image/webp">
+											<img data-fls-addtocart-image="" class="card__image ibg" alt="Image" src="./assets/img/home/product-popular/chair-1.webp">
+										</picture>
+									</a>
+									<div class="card__body">
+										<div class="card__top">
+											<div data-fls-label="" class="card__label">Chair</div>
+											<h4 class="card__title">
+												<a target="_blank" data-fls-addtocart-title="" href="cardproducts.html" class="card__link-title">White Aesthetic Chair</a>
+											</h4>
+										</div>
+										<div class="card__text">
+											<p>Combination of wood and wool</p>
+										</div>
+										<div class="card__items">
+											<div data-fls-addtocart-price="" class="card__price">$73.47</div>
+											<button data-fls-addtocart-button="" type="button" class="card__bag --icon-bag"></button>
+										</div>
+									</div>
+								</article>
+								<article data-fls-card="" data-fls-addtocart-product="" class="card">
+									<a href="cardproducts.html" class="card__link">
+										<picture>
+											<img data-fls-addtocart-image="" class="card__image ibg" alt="Image" src="./assets/img/products/card/cupboard-1.webp">
+										</picture>
+									</a>
+									<div class="card__body">
+										<div class="card__top">
+											<div data-fls-label="" class="card__label">Cupboard</div>
+											<h4 class="card__title">
+												<a target="_blank" data-fls-addtocart-title="" href="cardproducts.html" class="card__link-title">Wooden Cupboard 3 Row</a>
+											</h4>
+										</div>
+										<div class="card__text">
+											<p>Combination of wood and wool</p>
+										</div>
+										<div class="card__items">
+											<div data-fls-addtocart-price="" class="card__price">$79.88</div>
+											<button data-fls-addtocart-button="" type="button" class="card__bag --icon-bag"></button>
+										</div>
+									</div>
+								</article>
+								<article data-fls-card="" data-fls-addtocart-product="" class="card">
+									<a href="cardproducts.html" class="card__link">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/chair-2-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/chair-2-1200.webp" type="image/webp">
+											<img data-fls-addtocart-image="" class="card__image ibg" alt="Image" src="./assets/img/home/product-popular/chair-2.webp">
+										</picture>
+									</a>
+									<div class="card__body">
+										<div class="card__top">
+											<div data-fls-label="" class="card__label">Chair</div>
+											<h4 class="card__title">
+												<a target="_blank" data-fls-addtocart-title="" href="cardproducts.html" class="card__link-title">Minimalist Lounge Chair</a>
+											</h4>
+										</div>
+										<div class="card__text">
+											<p>Combination of wood and wool</p>
+										</div>
+										<div class="card__items">
+											<div data-fls-addtocart-price="" class="card__price">$63.47</div>
+											<button data-fls-addtocart-button="" type="button" class="card__bag --icon-bag"></button>
+										</div>
+									</div>
+								</article>
+								<article data-fls-card="" data-fls-addtocart-product="" class="card">
+									<a href="cardproducts.html" class="card__link">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/products/card/tables-1-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/products/card/tables-1-1200.webp" type="image/webp">
+											<img data-fls-addtocart-image="" class="card__image ibg" alt="Image" src="./assets/img/products/card/tables-1.webp">
+										</picture>
+									</a>
+									<div class="card__body">
+										<div class="card__top">
+											<div data-fls-label="" class="card__label">Table</div>
+											<h4 class="card__title">
+												<a target="_blank" data-fls-addtocart-title="" href="cardproducts.html" class="card__link-title">White Wooden Table</a>
+											</h4>
+										</div>
+										<div class="card__text">
+											<p>Combination of wood and wool</p>
+										</div>
+										<div class="card__items">
+											<div data-fls-addtocart-price="" class="card__price">$16.50</div>
+											<button data-fls-addtocart-button="" type="button" class="card__bag --icon-bag"></button>
+										</div>
+									</div>
+								</article>
+								<article data-fls-card="" data-fls-addtocart-product="" class="card">
+									<a href="cardproducts.html" class="card__link">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/products/card/cupboard-2-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/products/card/cupboard-2-1200.webp" type="image/webp">
+											<img data-fls-addtocart-image="" class="card__image ibg" alt="Image" src="./assets/img/products/card/cupboard-2.webp">
+										</picture>
+									</a>
+									<div class="card__body">
+										<div class="card__top">
+											<div data-fls-label="" class="card__label">Cupboard</div>
+											<h4 class="card__title">
+												<a target="_blank" data-fls-addtocart-title="" href="cardproducts.html" class="card__link-title">Minimalist White Cupboard</a>
+											</h4>
+										</div>
+										<div class="card__text">
+											<p>Combination of wood and wool</p>
+										</div>
+										<div class="card__items">
+											<div data-fls-addtocart-price="" class="card__price">$40.73</div>
+											<button data-fls-addtocart-button="" type="button" class="card__bag --icon-bag"></button>
+										</div>
+									</div>
+								</article>
+								<article data-fls-card="" data-fls-addtocart-product="" class="card">
+									<a href="cardproducts.html" class="card__link">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/home/product-popular/tables-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/home/product-popular/tables-1200.webp" type="image/webp">
+											<img data-fls-addtocart-image="" class="card__image ibg" alt="Image" src="./assets/img/home/product-popular/tables.webp">
+										</picture>
+									</a>
+									<div class="card__body">
+										<div class="card__top">
+											<div data-fls-label="" class="card__label">Table</div>
+											<h4 class="card__title">
+												<a target="_blank" data-fls-addtocart-title="" href="cardproducts.html" class="card__link-title">White Aesthetic Chair</a>
+											</h4>
+										</div>
+										<div class="card__text">
+											<p>Working Desk Setup</p>
+										</div>
+										<div class="card__items">
+											<div data-fls-addtocart-price="" class="card__price">$52.44</div>
+											<button data-fls-addtocart-button="" type="button" class="card__bag --icon-bag"></button>
+										</div>
+									</div>
+								</article>
+								<article data-fls-card="" data-fls-addtocart-product="" class="card">
+									<a href="cardproducts.html" class="card__link">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/products/card/decoration-1-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/products/card/decoration-1-1200.webp" type="image/webp">
+											<img data-fls-addtocart-image="" class="card__image ibg" alt="Image" src="./assets/img/products/card/decoration-1.webp">
+										</picture>
+									</a>
+									<div class="card__body">
+										<div class="card__top">
+											<div data-fls-label="" class="card__label">Decoration</div>
+											<h4 class="card__title">
+												<a target="_blank" data-fls-addtocart-title="" href="cardproducts.html" class="card__link-title">Green Potted plant On Table</a>
+											</h4>
+										</div>
+										<div class="card__text">
+											<p>Combination of wood and wool</p>
+										</div>
+										<div class="card__items">
+											<div data-fls-addtocart-price="" class="card__price">$58.39</div>
+											<button data-fls-addtocart-button="" type="button" class="card__bag --icon-bag"></button>
+										</div>
+									</div>
+								</article>
+								<article data-fls-card="" data-fls-addtocart-product="" class="card">
+									<a href="cardproducts.html" class="card__link">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/products/card/decoration-2-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/products/card/decoration-2-1200.webp" type="image/webp">
+											<img data-fls-addtocart-image="" class="card__image ibg" alt="Image" src="./assets/img/products/card/decoration-2.webp">
+										</picture>
+									</a>
+									<div class="card__body">
+										<div class="card__top">
+											<div data-fls-label="" class="card__label">Decoration</div>
+											<h4 class="card__title">
+												<a target="_blank" data-fls-addtocart-title="" href="cardproducts.html" class="card__link-title">Plant Sitting A White Table</a>
+											</h4>
+										</div>
+										<div class="card__text">
+											<p>Combination of wood and wool</p>
+										</div>
+										<div class="card__items">
+											<div data-fls-addtocart-price="" class="card__price">$61.49</div>
+											<button data-fls-addtocart-button="" type="button" class="card__bag --icon-bag"></button>
+										</div>
+									</div>
+								</article>
+								<article data-fls-card="" data-fls-addtocart-product="" class="card">
+									<a href="cardproducts.html" class="card__link">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/products/card/decoration-3-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/products/card/decoration-3-1200.webp" type="image/webp">
+											<img data-fls-addtocart-image="" class="card__image ibg" alt="Image" src="./assets/img/products/card/decoration-3.webp">
+										</picture>
+									</a>
+									<div class="card__body">
+										<div class="card__top">
+											<div data-fls-label="" class="card__label">Decoration</div>
+											<h4 class="card__title">
+												<a target="_blank" data-fls-addtocart-title="" href="cardproducts.html" class="card__link-title">White Wall With Some Plants</a>
+											</h4>
+										</div>
+										<div class="card__text">
+											<p>Combination of wood and wool</p>
+										</div>
+										<div class="card__items">
+											<div data-fls-addtocart-price="" class="card__price">$32.43</div>
+											<button data-fls-addtocart-button="" type="button" class="card__bag --icon-bag"></button>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div data-fls-pagging="" class="pagging">
+								<a href="#" class="pagging__arrow pagging__arrow--prev --icon-arrow-right"></a>
+								<ul class="pagging__list">
+									<li>
+										<a href="#" class="pagging__item active">1</a>
+									</li>
+									<li>
+										<a href="#" class="pagging__item">2</a>
+									</li>
+									<li>
+										<a href="#" class="pagging__item">3</a>
+									</li>
+									<li>
+										<a href="#" class="pagging__item pagging__item--dotted">...</a>
+									</li>
+									<li>
+										<a href="#" class="pagging__item">10</a>
+									</li>
+								</ul>
+								<a href="#" class="pagging__arrow pagging__arrow--next --icon-arrow-right"></a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<picture>
+					<source media="(max-width: 600px)" srcset="./assets/img/footer_bg-600.webp" type="image/webp">
+					<source media="(max-width: 1200px)" srcset="./assets/img/footer_bg-1200.webp" type="image/webp">
+					<img class="footer__image" alt="Image" src="./assets/img/footer_bg.webp">
+				</picture>
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__items">
+							<a href="index.html" class="footer__logo">
+								<img src="./assets/img/logo.svg" alt="Logo">
+							</a>
+							<div class="footer__text">
+								<p>Lalasia is digital agency that help you make better experience iaculis cras in.</p>
+							</div>
+							<div class="footer__social social">
+								<h2 class="social__title">Follow Us</h2>
+								<ul class="social__list">
+									<li class="social__item">
+										<a href="#" class="social__link --icon-facebook"></a>
+									</li>
+									<li class="social__item">
+										<a href="#" class="social__link --icon-twitter"></a>
+									</li>
+									<li class="social__item">
+										<a href="#" class="social__link --icon-instagram"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div data-fls-spollers="768" data-fls-spollers-one="" class="footer__menus">
+							<details class="footer__menu">
+								<summary>
+									<h5 class="footer__title">Product</h5>
+								</summary>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="#" class="footer__link">New Arrivals</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Best Selling</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Home Decor</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Kitchen Set</a>
+									</li>
+								</ul>
+							</details>
+							<details class="footer__menu">
+								<summary>
+									<h5 class="footer__title">Services</h5>
+								</summary>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="#" class="footer__link">Catalog</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Blog</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Faq</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Pricing</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+						<figure class="footer__picture">
+							<picture>
+								<img alt="Image" src="./assets/img/footer-chair.webp">
+							</picture>
+						</figure>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__item">
+							<div class="bottom-footer__copy">2026 lalasia. All rights reverved</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

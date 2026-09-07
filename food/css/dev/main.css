@@ -674,10 +674,10 @@ body {
   .menu-footer__list {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.25rem;
+    gap: 1rem;
   }
   .menu-footer__link {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }@media (width < 38.75em){
   .menu {
@@ -692,9 +692,6 @@ body {
   .header__social {
     order: 2;
     gap: 1.25rem;
-  }
-  .social__link {
-    font-size: 1.5625rem;
   }
 }@media (width <= 35em){
   .subscribe__container {
@@ -743,7 +740,7 @@ body {
     padding-block: 0.9375rem;
   }
   .header__logo {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
   }
   .footer {
     padding-bottom: 1.25rem;
@@ -752,7 +749,7 @@ body {
     margin-bottom: 1.25rem;
   }
   .footer__logo {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
   }
   .footer__bottom::before {
     margin-bottom: 0.9375rem;
@@ -761,7 +758,7 @@ body {
     column-gap: 1.25rem;
   }
   .social {
-    column-gap: 1.25rem;
+    column-gap: 1.5625rem;
   }
   .recipes-card__body {
     gap: 1rem;
@@ -795,7 +792,7 @@ body {
     padding-block: clamp( 0.9375rem , 0.43244949495rem  +  2.5252525253vw , 2.5rem );
   }
   .header__logo {
-    font-size: clamp( 1.25rem , 1.16919191919375rem  +  0.404040404vw , 1.5rem );
+    font-size: clamp( 1.375rem , 1.33459595959375rem  +  0.202020202vw , 1.5rem );
   }
   .footer {
     padding-bottom: clamp( 1.25rem , 1.04797979798125rem  +  1.0101010101vw , 1.875rem );
@@ -804,7 +801,7 @@ body {
     margin-bottom: clamp( 1.25rem , 0.68434343434375rem  +  2.8282828283vw , 3rem );
   }
   .footer__logo {
-    font-size: clamp( 1.25rem , 1.16919191919375rem  +  0.404040404vw , 1.5rem );
+    font-size: clamp( 1.375rem , 1.33459595959375rem  +  0.202020202vw , 1.5rem );
   }
   .footer__bottom::before {
     margin-bottom: clamp( 0.9375rem , 0.63446969696875rem  +  1.5151515152vw , 1.875rem );
@@ -813,7 +810,7 @@ body {
     column-gap: clamp( 1.25rem , 0.44191919191875rem  +  4.0404040404vw , 3.75rem );
   }
   .social {
-    column-gap: clamp( 1.25rem , 0.8459595959625rem  +  2.0202020202vw , 2.5rem );
+    column-gap: clamp( 1.5625rem , 1.25946969696875rem  +  1.5151515152vw , 2.5rem );
   }
   .recipes-card__body {
     gap: clamp( 1rem , 0.83838383838125rem  +  0.8080808081vw , 1.5rem );

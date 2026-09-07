@@ -315,8 +315,13 @@ body {
 .header__logo {
   line-height: 1.25;
 }
-.header__logo span {
-  color: var(--accent-red);
+.header__logo::after {
+  margin-left: 0.0625rem;
+  content: "";
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  background-color: var(--accent-red);
 }
 .header__menu {
   display: flex;
@@ -364,8 +369,13 @@ body {
 .footer__logo {
   line-height: 1.25;
 }
-.footer__logo span {
-  color: var(--accent-red);
+.footer__logo::after {
+  margin-left: 0.0625rem;
+  content: "";
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  background-color: var(--accent-red);
 }
 .footer__text {
   font-size: 1rem;

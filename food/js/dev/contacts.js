@@ -1,5 +1,5 @@
 import { n as slideToggle, r as slideUp, t as formValidate } from "./main.min.js";
-/* empty css                    */
+/* empty css               */
 //#region src/components/forms/select/select.js
 var SelectConstructor = class {
 	constructor(props, data = null) {

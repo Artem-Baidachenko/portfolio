@@ -8,11 +8,11 @@
 		<link rel="preload" href="./assets/fonts/SFProText-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<title>Recipes</title>
-		<script type="module" crossorigin="" src="./js/main.min.js?v=1788790226958"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1788790226958">
-		<link rel="stylesheet" crossorigin="" href="./css/recipes.min.css?v=1788790226958">
-		<link rel="stylesheet" crossorigin="" href="./css/otherrecipe.min.css?v=1788790226958">
-		<link rel="stylesheet" crossorigin="" href="./css/deliciousrecipe.min.css?v=1788790226958">
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1788866449958"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1788866449958">
+		<link rel="stylesheet" crossorigin="" href="./css/recipes.min.css?v=1788866449958">
+		<link rel="stylesheet" crossorigin="" href="./css/otherrecipe.min.css?v=1788866449958">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.min.css?v=1788866449958">
 		<link rel="preload" as="style" href="./css/webfonts.min.css">
 		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.min.css">
 	</head>
@@ -57,6 +57,18 @@
 			</header>
 			<main class="page">
 				<div data-fls-recipes="" class="recipes">
+					<div data-fls-breadcrumb="" class="breadcrumb">
+						<div class="breadcrumb__container">
+							<ul class="breadcrumb__list">
+								<li class="breadcrumb__item">
+									<a target="_blank" href="index.html" class="breadcrumb__link">Home</a>
+								</li>
+								<li class="breadcrumb__item">
+									<a target="_blank" href="recipes.html" class="breadcrumb__link active">Recipes</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 					<section data-fls-herorecipes="" class="hero-recipes">
 						<div class="hero-recipes__container">
 							<div class="hero-recipes__header header-recipes">
@@ -312,7 +324,7 @@
 													<p>Healthy</p>
 												</div>
 												<div class="recipes-card__actions">
-													<a href="#" class="recipes-card__link">See Details</a>
+													<a target="_blank" href="recipes.html" class="recipes-card__link">See Details</a>
 												</div>
 											</div>
 										</div>
@@ -340,7 +352,7 @@
 													<p>Western</p>
 												</div>
 												<div class="recipes-card__actions">
-													<a href="#" class="recipes-card__link">See Details</a>
+													<a target="_blank" href="recipes.html" class="recipes-card__link">See Details</a>
 												</div>
 											</div>
 										</div>
@@ -368,7 +380,7 @@
 													<p>Healthy</p>
 												</div>
 												<div class="recipes-card__actions">
-													<a href="#" class="recipes-card__link">See Details</a>
+													<a target="_blank" href="recipes.html" class="recipes-card__link">See Details</a>
 												</div>
 											</div>
 										</div>
@@ -395,7 +407,7 @@
 													<p>Eastern</p>
 												</div>
 												<div class="recipes-card__actions">
-													<a href="#" class="recipes-card__link">See Details</a>
+													<a target="_blank" href="recipes.html" class="recipes-card__link">See Details</a>
 												</div>
 											</div>
 										</div>

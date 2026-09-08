@@ -310,7 +310,7 @@
     margin-bottom: 0.625rem;
   }
   .hero-recipes {
-    padding-block: 1.875rem;
+    padding-bottom: 1.875rem;
   }
   .hero-recipes__header:not(:last-child) {
     margin-bottom: 1.875rem;
@@ -378,7 +378,7 @@
     margin-bottom: clamp( 0.625rem , 0.5037878787875rem  +  0.6060606061vw , 1rem );
   }
   .hero-recipes {
-    padding-block: clamp( 1.875rem , 0.8648989899rem  +  5.0505050505vw , 5rem );
+    padding-bottom: clamp( 1.875rem , 0.8648989899rem  +  5.0505050505vw , 5rem );
   }
   .hero-recipes__header:not(:last-child) {
     margin-bottom: clamp( 1.875rem , 1.18813131313125rem  +  3.4343434343vw , 4rem );
@@ -446,7 +446,7 @@
     margin-bottom: 1rem;
   }
   .hero-recipes {
-    padding-block: 5rem;
+    padding-bottom: 5rem;
   }
   .hero-recipes__header:not(:last-child) {
     margin-bottom: 4rem;

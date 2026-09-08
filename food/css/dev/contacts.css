@@ -216,9 +216,6 @@ textarea.input {
 }
 @media (width < 20em) {
   .food-contacts {
-    padding-top: 1.875rem;
-  }
-  .food-contacts {
     padding-bottom: 1.875rem;
   }
   .food-contacts__title {
@@ -236,10 +233,7 @@ textarea.input {
 }
 @media (width >= 20em) and (width < 81.875em) {
   .food-contacts {
-    padding-top: clamp( 1.875rem , -0.7512626262625rem  +  13.1313131313vw , 10rem );
-  }
-  .food-contacts {
-    padding-bottom: clamp( 1.875rem , -0.7512626262625rem  +  13.1313131313vw , 10rem );
+    padding-bottom: clamp( 1.875rem , 0.8648989899rem  +  5.0505050505vw , 5rem );
   }
   .food-contacts__title {
     font-size: clamp( 2.125rem , 1.5189393939375rem  +  3.0303030303vw , 4rem );
@@ -261,10 +255,7 @@ textarea.input {
 }
 @media (width >= 81.875em) {
   .food-contacts {
-    padding-top: 10rem;
-  }
-  .food-contacts {
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
   }
   .food-contacts__title {
     font-size: 4rem;

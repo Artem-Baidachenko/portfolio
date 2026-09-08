@@ -263,7 +263,7 @@
     font-size: 0.875rem;
   }
   .bloghero {
-    padding-block: 1.875rem;
+    padding-bottom: 1.875rem;
   }
   .bloghero__top:not(:last-child) {
     margin-bottom: 1.875rem;
@@ -310,7 +310,7 @@
     font-size: clamp( 0.875rem , 0.83459595959375rem  +  0.202020202vw , 1rem );
   }
   .bloghero {
-    padding-block: clamp( 1.875rem , 0.8648989899rem  +  5.0505050505vw , 5rem );
+    padding-bottom: clamp( 1.875rem , 0.8648989899rem  +  5.0505050505vw , 5rem );
   }
   .bloghero__top:not(:last-child) {
     margin-bottom: clamp( 1.875rem , 0.8648989899rem  +  5.0505050505vw , 5rem );
@@ -357,7 +357,7 @@
     font-size: 1rem;
   }
   .bloghero {
-    padding-block: 5rem;
+    padding-bottom: 5rem;
   }
   .bloghero__top:not(:last-child) {
     margin-bottom: 5rem;

@@ -379,7 +379,7 @@
   gap: 0.625rem;
 }
 .index .rating-testimonials__icon {
-  color: var(--yellowColor);
+  color: var(--starColor);
 }
 .index .rating-testimonials__value {
   color: var(--textColor);

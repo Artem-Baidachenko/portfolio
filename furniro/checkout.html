@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Checkout</title>
+		<script type="module" crossorigin="" src="./js/popup.min.js?v=1790325709243"></script>
+		<script type="module" crossorigin="" src="./js/select.min.js?v=1790325709243"></script>
+		<script type="module" crossorigin="" src="./js/autoheight.min.js?v=1790325709243"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/popup.min.css?v=1790325709243">
+		<link rel="stylesheet" crossorigin="" href="./css/select.min.css?v=1790325709243">
+		<link rel="stylesheet" crossorigin="" href="./css/checkout.min.css?v=1790325709243">
+		<link rel="stylesheet" crossorigin="" href="./css/title.min.css?v=1790325709243">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.min.css?v=1790325709243">
+		<link rel="stylesheet" crossorigin="" href="./css/advantages.min.css?v=1790325709243">
+		<link rel="preload" as="style" href="./css/webfonts.min.css">
+		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.min.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a href="index.html" class="header__logo">
+						<img src="./assets/img/logo.svg" alt="Logo">
+						<span>Furniro</span>
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a target="_blank" href="index.html" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a target="_blank" href="shop.html" class="menu__link">Shop</a>
+									<div class="menu__sub-menu sub-menu">
+										<div class="sub-menu__block">
+											<h2 class="sub-menu__title">Living Room</h2>
+											<ul class="sub-menu__menu submenu">
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">All Living Room</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Coffee Tables</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Sofas</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Safe Tables</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Nest of Tables</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Sideboards</a>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-menu__block">
+											<h2 class="sub-menu__title">Dinning Room</h2>
+											<ul class="sub-menu__menu submenu">
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">All Dinning Room</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Bar Stools</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Dinning Chairs</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Dinning Tables</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Benches</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Sideboards</a>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-menu__block">
+											<h2 class="sub-menu__title">Bedroom</h2>
+											<ul class="sub-menu__menu submenu">
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">All Bedroom Furniture</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Beds</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Bedside Tables</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Dressing Tables</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Bed Linens</a>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-menu__block">
+											<h2 class="sub-menu__title">Shop by Shapes & Size</h2>
+											<ul class="sub-menu__menu submenu">
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Accent & Armchairs</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">2 Seater Sofas</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">3 Seater Sofas</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">4 Seater Sofas</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Corner Sofas</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Sofa Beds</a>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-menu__block">
+											<h2 class="sub-menu__title">Tables & Chairs</h2>
+											<ul class="sub-menu__menu submenu">
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Dinning Tables</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Extending Tables</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Modern Chairs</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Wooden Chairs</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Metal Chairs</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Office Chairs</a>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-menu__block">
+											<h2 class="sub-menu__title">Sitting</h2>
+											<ul class="sub-menu__menu submenu">
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Sofa Beds</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Coffee Tables</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Armchairs</a>
+												</li>
+												<li class="submenu__item">
+													<a class="submenu__link" href="#">Decorative Cushions</a>
+												</li>
+											</ul>
+										</div>
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/home/hero/02-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/home/hero/02-1200.webp" type="image/webp">
+											<img class="sub-menu__image" alt="Image" src="./assets/img/home/hero/02.webp">
+										</picture>
+									</div>
+								</li>
+								<li class="menu__item">
+									<a target="_blank" href="#" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a target="_blank" href="contacts.html" class="menu__link">Contacts</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div data-fls-dynamic=".menu__body, 768" class="header__actions actions-header">
+						<div class="actions-header__user">
+							<a href="#" class="actions-header__link actions-header__link--icon-user"></a>
+						</div>
+						<div class="actions-header__search search-header">
+							<button data-fls-popup-link="popup" type="button" class="search-header__icon search-header__icon--icon-search"></button>
+						</div>
+						<div class="actions-header__favorite">
+							<a href="#" class="actions-header__link actions-header__link--icon-favorite"></a>
+						</div>
+						<div class="actions-header__cart cart">
+							<button type="button" class="cart__button cart__button--icon-cart">
+								<span class="cart__quantity" data-fls-addtocart="">0</span>
+							</button>
+							<div class="cart__body cart__body--empty">
+								<div class="cart__empty">Your basket is empty</div>
+								<ul class="cart__list" data-fls-cart-list=""></ul>
+								<div class="cart__bottom bottom-cart">
+									<div class="bottom-cart__fullprice fullprice">
+										<div class="fullprice__text">Total:</div>
+										<div class="fullprice__price" data-fls-cart-total="">Rs.0.00</div>
+									</div>
+									<div class="bottom-cart__actions">
+										<a href="cartpage.html" target="_blank" data-fls-button="" class="bottom-cart__button button">Go to cart</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-checkout="" class="checkout">
+					<div data-fls-breadcrumb="" class="breadcrumb">
+						<div class="breadcrumb__container">
+							<ul class="breadcrumb__list">
+								<li class="breadcrumb__item">
+									<a target="_blank" href="index.html" class="breadcrumb__link">Home</a>
+								</li>
+								<li class="breadcrumb__item">
+									<span class="breadcrumb__current">Checkout</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<section data-fls-checkoutinfo="" class="checkout-info">
+						<div class="checkout-info__container">
+							<form data-fls-form="" method="POST" action="#" class="checkout-info__form form-info">
+								<div class="form-info__details">
+									<h1 data-fls-title="" class="form-info__title">Billing details</h1>
+									<div class="form-info__body">
+										<div class="form-info__item">
+											<label for="i-1" class="form-info__label">First name</label>
+											<input id="i-1" data-fls-input="" data-fls-form-validatenow="" required autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Error" class="form-info__input input">
+										</div>
+										<div class="form-info__item">
+											<label for="i-2" class="form-info__label">Last name</label>
+											<input id="i-2" data-fls-input="" data-fls-form-validatenow="" required autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Error" class="form-info__input input">
+										</div>
+										<div class="form-info__item">
+											<label for="i-3" class="form-info__label">Company Name (optional)</label>
+											<input id="i-3" data-fls-input="" autocomplete="off" type="text" name="form[]" class="form-info__input input">
+										</div>
+										<div class="form-info__item">
+											<label for="i-4" class="form-info__label">Street address</label>
+											<input id="i-4" data-fls-input="" autocomplete="off" type="text" name="form[]" class="form-info__input input">
+										</div>
+										<div class="form-info__item">
+											<label class="form-info__label">Country / Region</label>
+											<select name="form[]" data-fls-select="" data-fls-select-modif="form">
+												<option value="1" selected>Sri Lanka</option>
+												<option value="2">Sri Lanka</option>
+												<option value="3">Sri Lanka</option>
+												<option value="4">Sri Lanka</option>
+											</select>
+										</div>
+										<div class="form-info__item">
+											<label for="i-5" class="form-info__label">Town / City</label>
+											<input id="i-5" data-fls-input="" autocomplete="off" type="text" name="form[]" class="form-info__input input">
+										</div>
+										<div class="form-info__item">
+											<label class="form-info__label">Western Province</label>
+											<select name="form[]" data-fls-select="" data-fls-select-modif="form">
+												<option value="1" selected>Province</option>
+												<option value="2">Western Province</option>
+												<option value="3">Western Province</option>
+												<option value="4">Western Province</option>
+											</select>
+										</div>
+										<div class="form-info__item">
+											<label for="i-6" class="form-info__label">ZIP code</label>
+											<input id="i-6" data-fls-input="" autocomplete="off" type="text" name="form[]" class="form-info__input input">
+										</div>
+										<div class="form-info__item">
+											<label for="i-7" class="form-info__label">Phone</label>
+											<input id="i-7" data-fls-input="" autocomplete="off" type="tel" name="form[phone]" data-fls-form-errtext="Error" class="form-info__input input" pattern="\+?[0-9]{1,4}[0-9]{6,14}$">
+										</div>
+										<div class="form-info__item">
+											<label for="i-8" class="form-info__label">Email address</label>
+											<input id="i-8" data-fls-input="" type="email" name="form[email]" data-fls-form-errtext="Error" class="form-info__input input">
+										</div>
+										<div class="form-info__item">
+											<label class="form-info__label">Additional information</label>
+											<textarea data-fls-input="" data-fls-input-autoheight="" autocomplete="off" name="form[]" class="form-info__input input"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="form-info__order order-info">
+									<div class="order-info__top top-info">
+										<div class="top-info__line">
+											<h2 class="top-info__title">Product</h2>
+											<h2 class="top-info__title">Subtotal</h2>
+										</div>
+										<div class="top-info__line">
+											<div class="top-info__desc">
+												Syltherine
+												<span>x 1</span>
+											</div>
+											<div class="top-info__price">Rs. 2.500.000</div>
+										</div>
+										<div class="top-info__line">
+											<div class="top-info__desc">
+												Lolito
+												<span>x 1</span>
+											</div>
+											<div class="top-info__price">Rs. 7.000.000</div>
+										</div>
+										<div class="top-info__line">
+											<div class="top-info__subtotal">Subtotal</div>
+											<div class="top-info__price">Rs. 9.500.000</div>
+										</div>
+										<div class="top-info__line">
+											<div class="top-info__total">Total</div>
+											<div class="top-info__price-full">Rs. 9.500.000</div>
+										</div>
+									</div>
+									<div class="order-info__body body-order">
+										<div data-fls-radio="" class="body-order__options options">
+											<label class="options__item">
+												<input class="options__input" checked type="radio" value="1" name="option">
+												<span class="options__text">Direct Bank Transfer</span>
+											</label>
+											<div class="options__desc">
+												<p>
+													Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+												</p>
+											</div>
+											<label class="options__item">
+												<input class="options__input" type="radio" value="2" name="option">
+												<span class="options__text">Direct Bank Transfer</span>
+											</label>
+											<label class="options__item">
+												<input class="options__input" type="radio" value="3" name="option">
+												<span class="options__text">Cash On Delivery</span>
+											</label>
+										</div>
+										<div class="body-order__text">
+											<p>
+												Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our
+												<a href="#">privacy policy</a>
+												.
+											</p>
+										</div>
+									</div>
+									<div class="order-info__actions">
+										<button data-fls-button="" type="submit" class="order-info__button button button--border">Place order</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+					<aside data-fls-advantages="" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.2" class="advantages">
+						<div class="advantages__container">
+							<ul class="advantages__list">
+								<li class="advantages__item">
+									<img src="./assets/img/advantages/01.svg" class="advantages__icon" alt="Image">
+									<div class="advantages__title">High Quality</div>
+									<div class="advantages__text">crafted from top materials</div>
+								</li>
+								<li class="advantages__item">
+									<img src="./assets/img/advantages/02.svg" class="advantages__icon" alt="Image">
+									<div class="advantages__title">Warranty Protection</div>
+									<div class="advantages__text">Over 2 years</div>
+								</li>
+								<li class="advantages__item">
+									<img src="./assets/img/advantages/03.svg" class="advantages__icon" alt="Image">
+									<div class="advantages__title">Free Shipping</div>
+									<div class="advantages__text">Order over 150 $</div>
+								</li>
+								<li class="advantages__item">
+									<img src="./assets/img/advantages/04.svg" class="advantages__icon" alt="Image">
+									<div class="advantages__title">24 / 7 Support</div>
+									<div class="advantages__text">Dedicated support</div>
+								</li>
+							</ul>
+						</div>
+					</aside>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__items">
+							<a href="index.html" class="footer__logo">
+								<img src="./assets/img/logo.svg" alt="Logo">
+								<span>Furniro</span>
+							</a>
+							<div class="footer__social social">
+								<h2 class="social__title">Follow Us:</h2>
+								<ul class="social__list">
+									<li class="social__item">
+										<a href="#" class="social__link --icon-facebook"></a>
+									</li>
+									<li class="social__item">
+										<a href="#" class="social__link --icon-twitter"></a>
+									</li>
+									<li class="social__item">
+										<a href="#" class="social__link --icon-instagram"></a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__contacts contacts-footer">
+								<div class="contacts-footer__item">
+									<a href="tel:+845466789" class="contacts-footer__link contacts-footer__link--icon-phone">+(84) 546-6789</a>
+								</div>
+								<div class="contacts-footer__item">
+									<a href="#" class="contacts-footer__link contacts-footer__link--icon-location">236 5th SE Avenue, New York NY10000, United States</a>
+								</div>
+							</div>
+						</div>
+						<div data-fls-spollers="768" data-fls-spollers-one="" class="footer__menus">
+							<details class="footer__menu">
+								<summary>
+									<h3 class="footer__title">Menu</h3>
+								</summary>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="#" class="footer__link">Home</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Shop</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">About</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Contacts</a>
+									</li>
+								</ul>
+							</details>
+							<details class="footer__menu">
+								<summary>
+									<h3 class="footer__title">Account</h3>
+								</summary>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="#" class="footer__link">My Account</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Cart</a>
+									</li>
+									<li class="footer__item">
+										<a href="#" class="footer__link">Checkout</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+						<figure class="footer__picture">
+							<picture>
+								<img alt="Image" src="./assets/img/footer-chair.webp">
+							</picture>
+						</figure>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__item">
+							<div class="bottom-footer__copy">2026 Furniro. All rights reverved</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="popup" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close">
+						<svg width="15" height="15" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M8.61322 7.27937L14.2821 1.61028C14.6511 1.24153 14.6511 0.645314 14.2821 0.276563C13.9134 -0.0921877 13.3172 -0.0921877 12.9484 0.276563L7.27933 5.94565L1.61041 0.276563C1.24149 -0.0921877 0.645443 -0.0921877 0.276693 0.276563C-0.0922309 0.645314 -0.0922309 1.24153 0.276693 1.61028L5.94561 7.27937L0.276693 12.9485C-0.0922309 13.3172 -0.0922309 13.9134 0.276693 14.2822C0.460463 14.4661 0.702094 14.5585 0.943553 14.5585C1.18501 14.5585 1.42647 14.4661 1.61041 14.2822L7.27933 8.61309L12.9484 14.2822C13.1324 14.4661 13.3738 14.5585 13.6153 14.5585C13.8567 14.5585 14.0982 14.4661 14.2821 14.2822C14.6511 13.9134 14.6511 13.3172 14.2821 12.9485L8.61322 7.27937Z" fill="#7B7B7B"></path>
+						</svg>
+					</button>
+					<div data-fls-popup-content="" class="popup__content">
+						<h2 class="popup__title">Search</h2>
+						<form data-fls-watcher="" data-fls-watcher-once="" data-fls-form="" action="#" class="popup__form form-popup">
+							<div class="form-popup__body">
+								<div class="form-popup__line">
+									<button type="submit" class="form-popup__search --icon-search"></button>
+									<input data-fls-form-errtext="Search required" data-fls-input="" required autocomplete="off" type="text" name="name" placeholder="Search property" class="form-popup__input">
+								</div>
+								<div class="form-popup__block block-search">
+									<div class="block-search__wrap">
+										<div class="block-search__result">
+											<div class="block-search__categories">
+												<h2 class="block-search__title">Found goods</h2>
+												<div class="block-search__product product-search">
+													<article data-fls-addtocart-product="" class="product-search__items">
+														<a href="#" class="product-search__link">
+															<picture>
+																<source media="(max-width: 600px)" srcset="./assets/img/home/products/01-600.webp" type="image/webp">
+																<source media="(max-width: 1200px)" srcset="./assets/img/home/products/01-1200.webp" type="image/webp">
+																<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/products/01.webp">
+															</picture>
+														</a>
+														<div class="product-search__content">
+															<h3 class="product-search__title">
+																<a data-fls-addtocart-title="" target="_blank" href="cartpage.html" class="product-search__link-title">Syltherine</a>
+															</h3>
+															<div class="product-search__text">
+																<p>Stylish cafe chair</p>
+															</div>
+															<div class="product-search__footer">
+																<div data-fls-addtocart-price="" data-price="2500000" class="product-search__price">Rp 2.500.000</div>
+																<button data-fls-addtocart-button="" type="button" class="product-search__cart --icon-cart"></button>
+															</div>
+														</div>
+													</article>
+													<article data-fls-addtocart-product="" class="product-search__items">
+														<a href="#" class="product-search__link">
+															<picture>
+																<source media="(max-width: 600px)" srcset="./assets/img/home/products/03-600.webp" type="image/webp">
+																<source media="(max-width: 1200px)" srcset="./assets/img/home/products/03-1200.webp" type="image/webp">
+																<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/products/03.webp">
+															</picture>
+														</a>
+														<div class="product-search__content">
+															<h3 class="product-search__title">
+																<a data-fls-addtocart-title="" target="_blank" href="cartpage.html" class="product-search__link-title">Lolito</a>
+															</h3>
+															<div class="product-search__text">
+																<p>Luxury big sofa</p>
+															</div>
+															<div class="product-search__footer">
+																<div data-fls-addtocart-price="" data-price="7000000" class="product-search__price">Rp 7.000.000</div>
+																<button data-fls-addtocart-button="" type="button" class="product-search__cart --icon-cart"></button>
+															</div>
+														</div>
+													</article>
+													<article data-fls-addtocart-product="" class="product-search__items">
+														<a href="#" class="product-search__link">
+															<picture>
+																<source media="(max-width: 600px)" srcset="./assets/img/home/products/04-600.webp" type="image/webp">
+																<source media="(max-width: 1200px)" srcset="./assets/img/home/products/04-1200.webp" type="image/webp">
+																<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/products/04.webp">
+															</picture>
+														</a>
+														<div class="product-search__content">
+															<h3 class="product-search__title">
+																<a data-fls-addtocart-title="" target="_blank" href="cartpage.html" class="product-search__link-title">Respira</a>
+															</h3>
+															<div class="product-search__text">
+																<p>Outdoor bar table and stool</p>
+															</div>
+															<div class="product-search__footer">
+																<div data-fls-addtocart-price="" data-price="500000" class="product-search__price">Rp 500.000</div>
+																<button data-fls-addtocart-button="" type="button" class="product-search__cart --icon-cart"></button>
+															</div>
+														</div>
+													</article>
+													<article data-fls-addtocart-product="" class="product-search__items">
+														<a href="#" class="product-search__link">
+															<picture>
+																<source media="(max-width: 600px)" srcset="./assets/img/home/products/06-600.webp" type="image/webp">
+																<source media="(max-width: 1200px)" srcset="./assets/img/home/products/06-1200.webp" type="image/webp">
+																<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/products/06.webp">
+															</picture>
+														</a>
+														<div class="product-search__content">
+															<h3 class="product-search__title">
+																<a data-fls-addtocart-title="" target="_blank" href="cartpage.html" class="product-search__link-title">Muggo</a>
+															</h3>
+															<div class="product-search__text">
+																<p>Small mug</p>
+															</div>
+															<div class="product-search__footer">
+																<div data-fls-addtocart-price="" data-price="150000" class="product-search__price">Rp 150.000</div>
+																<button data-fls-addtocart-button="" type="button" class="product-search__cart --icon-cart"></button>
+															</div>
+														</div>
+													</article>
+													<article data-fls-addtocart-product="" class="product-search__items">
+														<a href="#" class="product-search__link">
+															<picture>
+																<source media="(max-width: 600px)" srcset="./assets/img/home/products/07-600.webp" type="image/webp">
+																<source media="(max-width: 1200px)" srcset="./assets/img/home/products/07-1200.webp" type="image/webp">
+																<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/products/07.webp">
+															</picture>
+														</a>
+														<div class="product-search__content">
+															<h3 class="product-search__title">
+																<a data-fls-addtocart-title="" target="_blank" href="cartpage.html" class="product-search__link-title">Pingky</a>
+															</h3>
+															<div class="product-search__text">
+																<p>Cute bed set</p>
+															</div>
+															<div class="product-search__footer">
+																<div data-fls-addtocart-price="" data-price="7000000" class="product-search__price">Rp 7.000.000</div>
+																<button data-fls-addtocart-button="" type="button" class="product-search__cart --icon-cart"></button>
+															</div>
+														</div>
+													</article>
+													<article data-fls-addtocart-product="" class="product-search__items">
+														<a href="#" class="product-search__link">
+															<picture>
+																<source media="(max-width: 600px)" srcset="./assets/img/home/products/08-600.webp" type="image/webp">
+																<source media="(max-width: 1200px)" srcset="./assets/img/home/products/08-1200.webp" type="image/webp">
+																<img data-fls-addtocart-image="" class="product-search__image ibg" alt="Image" src="./assets/img/home/products/08.webp">
+															</picture>
+														</a>
+														<div class="product-search__content">
+															<h3 class="product-search__title">
+																<a data-fls-addtocart-title="" target="_blank" href="cartpage.html" class="product-search__link-title">Potty</a>
+															</h3>
+															<div class="product-search__text">
+																<p>Minimalist flower pot</p>
+															</div>
+															<div class="product-search__footer">
+																<div data-fls-addtocart-price="" data-price="500000" class="product-search__price">Rp 500.000</div>
+																<button data-fls-addtocart-button="" type="button" class="product-search__cart --icon-cart"></button>
+															</div>
+														</div>
+													</article>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

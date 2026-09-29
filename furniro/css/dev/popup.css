@@ -315,6 +315,7 @@ body {
   visibility: hidden;
   left: 50%;
   pointer-events: none;
+  translate: -50% 10%;
   position: absolute;
   top: 85%;
   z-index: 5;
@@ -1462,7 +1463,7 @@ body::after {
     color: var(--orange-color);
   }
   .menu__item:hover .sub-menu {
-    transform: translate(-50%, 0);
+    translate: -50% 0;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;

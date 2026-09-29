@@ -294,10 +294,10 @@ html:not([data-fls-touch]) .card-rooms__link:hover .slide-room__button {
   color: var(--main-color);
   margin-bottom: 0.25rem;
   opacity: 0;
-  translate: -10% 15%;
+  translate: 5% 15%;
 }
 .--watcher-view .content-hero__label {
-  transition: all 0.5s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
   opacity: 1;
   translate: 0 0;
 }
@@ -721,7 +721,7 @@ html:not([data-fls-touch]) .furniture__items:has(.row-furniture__item:hover) .ro
     font-size: clamp( 1.25rem , 1.086734693875rem  +  0.8163265306vw , 1.75rem );
   }
   .hero__container {
-    padding-block: clamp( 1.875rem , -0.16581632653125rem  +  10.2040816327vw , 8.125rem );
+    padding-block: clamp( 1.875rem , -1.18622448979375rem  +  15.306122449vw , 11.25rem );
   }
   .content-hero__title {
     font-size: clamp( 1.75rem , 1.26020408163125rem  +  2.4489795918vw , 3.25rem );
@@ -842,7 +842,7 @@ html:not([data-fls-touch]) .furniture__items:has(.row-furniture__item:hover) .ro
     font-size: 1.75rem;
   }
   .hero__container {
-    padding-block: 8.125rem;
+    padding-block: 11.25rem;
   }
   .content-hero {
     padding: 3.75rem;

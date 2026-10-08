@@ -1,26 +1,24 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<style data-fls-preloader="true" rel="preload">
-			body > *:not(.fls-preloader) {opacity: 0;visibility: hidden;}[data-fls-preloader-loaded] body > *:not(.fls-preloader) {transition: opacity 1s ease 0s;opacity: 1;visibility: visible;}
-		</style>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1755935516756"></script>
-		<script type="module" crossorigin="" src="./js/digcounter.min.js?v=1755935516756"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1755935516756">
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1755935516756">
-		<link rel="stylesheet" crossorigin="" href="./css/aboutblock.min.css?v=1755935516756">
-		<link rel="preload" as="style" href="./css/webfonts.min.css">
-		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.min.css">
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1791456286514"></script>
+		<script type="module" crossorigin="" src="./js/counterblock.min.js?v=1791456286514"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1791456286514">
+		<link rel="stylesheet" crossorigin="" href="./css/counterblock.min.css?v=1791456286514">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1791456286514">
+		<link rel="stylesheet" crossorigin="" href="./css/label.min.css?v=1791456286514">
+		<link rel="stylesheet" crossorigin="" href="./css/productsection.min.css?v=1791456286514">
+		<link rel="stylesheet" crossorigin="" href="./css/aboutblock.min.css?v=1791456286514">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" data-fls-header-scroll="" class="header">
 				<div class="header__container">
-					<a href="home.html" class="header__logo">
+					<a href="index.html" target="_blank" class="header__logo">
 						<img src="./assets/img/logo.svg" alt="Logo">
 					</a>
 					<div class="header__menu menu">
@@ -50,236 +48,235 @@
 </each>
 </fetch>
 -->
-					<div data-fls-dynamic=".menu__body, 767.98" class="header__actions actions-header">
-						<a href="contact-us.html" data-fls-button="" class="actions-header__button button">Contact Us</a>
+					<div data-fls-dynamic=".menu__body, 768" class="header__actions actions-header">
+						<a href="contacts.html" target="_blank" data-fls-button="" class="actions-header__button button">Contact Us</a>
 					</div>
 				</div>
 			</header>
-			<main class="page page--home">
-				<section data-fls-watcher="" data-fls-watcher-once="" class="page__hero hero">
-					<div class="hero__container">
-						<div data-fls-blockhead="" class="hero__blockhead blockhead blockhead--hero">
-							<h1 class="blockhead__title">Design your interor with high quality.</h1>
-						</div>
-						<div class="hero__counter counter-block">
-							<div class="counter-block__items">
-								<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter-block__value">350</div>
-								<div class="counter-block__description">Project Completed</div>
+			<main class="page">
+				<div data-fls-index="" class="index">
+					<section data-fls-watcher="" data-fls-hero="" class="hero">
+						<div class="hero__container">
+							<h1 class="hero__title">Design your interor with high quality.</h1>
+							<div data-fls-counterblock="" class="hero__counter counter-block">
+								<div class="counter-block__items">
+									<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter-block__value">350</div>
+									<div class="counter-block__description">Project Completed</div>
+								</div>
+								<div class="counter-block__items">
+									<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter-block__value">23</div>
+									<div class="counter-block__description">Professional Teams</div>
+								</div>
+								<div class="counter-block__items">
+									<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter-block__value">15</div>
+									<div class="counter-block__description">Years Experience</div>
+								</div>
 							</div>
-							<div class="counter-block__items">
-								<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter-block__value">23</div>
-								<div class="counter-block__description">Professional Teams</div>
+							<div class="hero__text">
+								<p>
+									2022
+									<br>
+									ALL RIGHT RESERVED
+								</p>
 							</div>
-							<div class="counter-block__items">
-								<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter-block__value">15</div>
-								<div class="counter-block__description">Years Experience</div>
+							<figure class="hero__picture">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/home/hero/bg-600.webp" type="image/webp">
+									<img class="hero__image ibg" alt="Image" src="./assets/img/home/hero/bg.webp">
+								</picture>
+							</figure>
+						</div>
+					</section>
+					<section data-fls-watcher="" data-fls-watcher-once="" data-fls-aboutsection="" class="about-section">
+						<div class="about-section__container">
+							<div class="about-section__top">
+								<div data-fls-label="" class="about-section__label">ABOUT</div>
+								<h2 class="about-section__title">
+									“We're one of the best furniture agency. Prioritizing customers and making purchases easy are the hallmarks of our agency.”
+								</h2>
 							</div>
-						</div>
-						<div class="hero__text">
-							2022
-							<br>
-							ALL RIGHT RESERVED
-						</div>
-						<picture>
-							<source media="(max-width: 600px)" srcset="./assets/img/home/hero/bg-600.webp" type="image/webp">
-							<img class="hero__image ibg" alt="Image" src="./assets/img/home/hero/bg.webp">
-						</picture>
-					</div>
-				</section>
-				<section data-fls-watcher="" data-fls-watcher-once="" class="page__about about">
-					<div class="about__container">
-						<div data-fls-blockhead="" class="about__blockhead blockhead blockhead--about">
-							<div class="blockhead__label">ABOUT</div>
-							<h2 class="blockhead__title">
-								“We're one of the best furniture agency. Prioritizing customers and making purchases easy are the hallmarks of our agency.”
-							</h2>
-						</div>
-						<div data-fls-aboutblock="" class="about__block block-about">
-							<picture>
-								<source media="(max-width: 600px)" srcset="./assets/img/home/about/01-600.webp" type="image/webp">
-								<img class="block-about__image ibg" alt="Image" src="./assets/img/home/about/01.webp">
-							</picture>
-							<div class="block-about__content">
-								<div class="block-about__top block-about__top--home top-block">
+							<div data-fls-aboutblock="" class="about-section__block block-about">
+								<figure class="block-about__picture">
 									<picture>
-										<img class="top-block__image ibg" alt="Image" src="./assets/img/home/about/people.webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/portfolio/work/minimalist-600.webp" type="image/webp">
+										<img class="block-about__image ibg" alt="Image" src="./assets/img/portfolio/work/minimalist.webp">
 									</picture>
-									<div class="top-block__content">
-										<div class="top-block__name">Arga Danaan</div>
-										<div class="top-block__description">CEO of Dananz</div>
+								</figure>
+								<div class="block-about__content">
+									<figure class="block-about__top top-block">
+										<picture>
+											<img class="top-block__image ibg" alt="Image" src="./assets/img/portfolio/work/people.webp">
+										</picture>
+										<figcaption class="top-block__content">
+											<div class="top-block__name">Arga Danaan</div>
+											<div class="top-block__description">CEO of Dananz</div>
+										</figcaption>
+									</figure>
+									<div class="block-about__wrap">
+										<div data-fls-text="" class="block-about__text">
+											<p>
+												Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
+											</p>
+										</div>
+										<div class="block-about__actions actions-block">
+											<a href="portfolio.html" target="_blank" data-fls-button="" class="actions-block__button button">Learn More</a>
+										</div>
 									</div>
 								</div>
-								<div class="block-about__wrap">
-									<div class="block-about__text">
+							</div>
+						</div>
+					</section>
+					<section data-fls-servicehome="" data-fls-watcher="" data-fls-watcher-once="" class="service-home">
+						<div class="service-home__container">
+							<div class="service-home__body body-service-home">
+								<div class="body-service-home__top">
+									<div data-fls-label="" class="body-service-home__label">SERVICE</div>
+									<h2 class="body-service-home__title">attractive furniture with the best quality.</h2>
+									<div data-fls-text="" class="body-service-home__text">
 										<p>
-											Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
+											Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.
 										</p>
 									</div>
-									<div class="block-about__actions actions-block">
-										<a href="#" data-fls-button="" class="actions-block__button button">Learn More</a>
-									</div>
 								</div>
+								<ul class="body-service-home__list">
+									<li class="body-service-home__item">
+										<a href="#" class="body-service-home__link body-service-home__link--icon-arrowright">Interior Design</a>
+									</li>
+									<li class="body-service-home__item">
+										<a href="#" class="body-service-home__link body-service-home__link--icon-arrowright">Consultant</a>
+									</li>
+									<li class="body-service-home__item">
+										<a href="#" class="body-service-home__link body-service-home__link--icon-arrowright">Construction Consultant</a>
+									</li>
+								</ul>
 							</div>
+							<figure class="service-home__picture">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/home/service/01-600.webp" type="image/webp">
+									<img class="service-home__image ibg" alt="Image" src="./assets/img/home/service/01.webp">
+								</picture>
+							</figure>
 						</div>
-					</div>
-				</section>
-				<section data-fls-watcher="" data-fls-watcher-once="" class="page__service service">
-					<div class="service__container">
-						<div class="service__body body-service">
-							<div data-fls-blockhead="" class="body-service__blockhead blockhead blockhead--service">
-								<div class="blockhead__label">SERVICE</div>
-								<h2 class="blockhead__title">attractive furniture with the best quality.</h2>
-								<div class="blockhead__text">
+					</section>
+					<section data-fls-productsection="" data-fls-watcher="" data-fls-watcher-once="" class="product-section">
+						<div class="product-section__container">
+							<div data-fls-blockhead="" class="product-section__blockhead blockhead blockhead--horizontal">
+								<div class="blockhead__content">
+									<div data-fls-label="" class="blockhead__label">PRODUCT</div>
+									<h2 class="blockhead__title">Choose your product themes.</h2>
+								</div>
+								<div data-fls-text="" class="blockhead__text">
 									<p>
-										Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.
+										Find the theme you want. If our choice of theme is not what you want, you can customize it as you want.
 									</p>
 								</div>
 							</div>
-							<ul class="body-service__list">
-								<li class="body-service__item">
-									<a href="#" class="body-service__link">
-										Interior Design
-										<span class="--icon-arrow-right"></span>
-									</a>
-								</li>
-								<li class="body-service__item">
-									<a href="#" class="body-service__link">
-										Consultant
-										<span class="--icon-arrow-right"></span>
-									</a>
-								</li>
-								<li class="body-service__item">
-									<a href="#" class="body-service__link">
-										Construction Consultant
-										<span class="--icon-arrow-right"></span>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="service__image">
-							<picture>
-								<source media="(max-width: 600px)" srcset="./assets/img/home/service/01-600.webp" type="image/webp">
-								<img alt="Image" src="./assets/img/home/service/01.webp">
-							</picture>
-						</div>
-					</div>
-				</section>
-				<section data-fls-watcher="" data-fls-watcher-once="" class="page__product product">
-					<div class="product__container">
-						<div data-fls-blockhead="" class="product__blockhead blockhead blockhead--product">
-							<div class="blockhead__content">
-								<div class="blockhead__label">PRODUCT</div>
-								<h2 class="blockhead__title">Choose your product themes.</h2>
-							</div>
-							<div class="blockhead__text">
-								<p>
-									Find the theme you want. If our choice of theme is not what you want, you can customize it as you want.
-								</p>
-							</div>
-						</div>
-						<ul class="product__list">
-							<li class="product__item">
-								<a href="portfolio.html" class="product__link">
-									Vintage
-									<span class="--icon-arrow-right"></span>
+							<div class="product-section__list">
+								<a target="_blank" href="portfolio.html" class="product-section__link">
+									<div class="product-section__item">
+										<h3 class="product-section__title product-section__title--icon-arrowright">Vintage</h3>
+										<div class="product-section__text">
+											<p>the use of simple and limited elements to get the best effect or impression.</p>
+										</div>
+									</div>
 								</a>
-								<span class="text">the use of simple and limited elements to get the best effect or impression.</span>
-							</li>
-							<li class="product__item">
-								<a href="portfolio.html" class="product__link">
-									Minimalist
-									<span class="--icon-arrow-right"></span>
+								<a target="_blank" href="portfolio.html" class="product-section__link">
+									<div class="product-section__item">
+										<h3 class="product-section__title product-section__title--icon-arrowright">Minimalist</h3>
+										<div class="product-section__text">
+											<p>the use of simple and limited elements to get the best effect or impression.</p>
+										</div>
+									</div>
 								</a>
-								<span class="text">the use of simple and limited elements to get the best effect or impression.</span>
-							</li>
-							<li class="product__item">
-								<a href="portfolio.html" class="product__link">
-									Modern
-									<span class="--icon-arrow-right"></span>
+								<a target="_blank" href="portfolio.html" class="product-section__link">
+									<div class="product-section__item">
+										<h3 class="product-section__title product-section__title--icon-arrowright">Modern</h3>
+										<div class="product-section__text">
+											<p>the use of simple and limited elements to get the best effect or impression.</p>
+										</div>
+									</div>
 								</a>
-								<span class="text">the use of simple and limited elements to get the best effect or impression.</span>
-							</li>
-							<li class="product__item">
-								<a href="portfolio.html" class="product__link">
-									transitional
-									<span class="--icon-arrow-right"></span>
+								<a target="_blank" href="portfolio.html" class="product-section__link">
+									<div class="product-section__item">
+										<h3 class="product-section__title product-section__title--icon-arrowright">transitional</h3>
+										<div class="product-section__text">
+											<p>the use of simple and limited elements to get the best effect or impression.</p>
+										</div>
+									</div>
 								</a>
-								<span class="text">the use of simple and limited elements to get the best effect or impression.</span>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section data-fls-watcher="" data-fls-watcher-once="" class="page__material material">
-					<div class="material__container">
-						<div data-fls-blockhead="" class="material__blockhead blockhead blockhead--material">
-							<div class="blockhead__label">MATERIAL</div>
-							<h2 class="blockhead__title">choice of materials for quality furniture.</h2>
-							<div class="blockhead__text">
-								<p>
-									You can custom the material as desired. And our furniture uses the best materials and selected quality materials.
-								</p>
-							</div>
-							<div class="blockhead__actions actions-blockhead">
-								<a href="#" data-fls-button="" class="actions-blockhead__button button button--border">See Materials</a>
 							</div>
 						</div>
-						<div class="material__media">
-							<div class="material__item material__item--1">
-								<picture>
-									<img class="material__image ibg" alt="Image" src="./assets/img/home/furniture/01.webp">
-								</picture>
+					</section>
+					<section data-fls-material="" data-fls-watcher="" data-fls-watcher-once="" class="material">
+						<div class="material__container">
+							<div class="material__top">
+								<div data-fls-label="" class="material__label">MATERIAL</div>
+								<h2 class="material__title">choice of materials for quality furniture.</h2>
+								<div data-fls-text="" class="material__text">
+									<p>
+										You can custom the material as desired. And our furniture uses the best materials and selected quality materials.
+									</p>
+								</div>
+								<div class="material__actions actions-material">
+									<a href="#" data-fls-button="" class="actions-material__button button button--border">See Materials</a>
+								</div>
 							</div>
-							<div class="material__item material__item--2">
-								<picture>
-									<img class="material__image ibg" alt="Image" src="./assets/img/home/furniture/02.webp">
-								</picture>
-							</div>
-							<div class="material__item material__item--3">
-								<picture>
-									<img class="material__image ibg" alt="Image" src="./assets/img/home/furniture/03.webp">
-								</picture>
+							<div class="material__media">
+								<figure class="material__picture">
+									<picture>
+										<img class="material__image ibg" alt="Image" src="./assets/img/home/furniture/01.webp">
+									</picture>
+								</figure>
+								<figure class="material__picture">
+									<picture>
+										<img class="material__image ibg" alt="Image" src="./assets/img/home/furniture/02.webp">
+									</picture>
+								</figure>
+								<figure class="material__picture">
+									<picture>
+										<img class="material__image ibg" alt="Image" src="./assets/img/home/furniture/03.webp">
+									</picture>
+								</figure>
 							</div>
 						</div>
-					</div>
-				</section>
-				<section data-fls-watcher="" data-fls-watcher-once="" class="page__place place">
-					<div class="place__container">
-						<div data-fls-blockhead="" class="place__blockhead blockhead blockhead--place">
-							<h2 class="blockhead__title">let's discuss making your interior like a dream place!</h2>
-							<div class="blockhead__content">
-								<div class="blockhead__text">
+					</section>
+					<section data-fls-letsplace="" data-fls-watcher="" data-fls-watcher-once="" class="lets-place">
+						<div class="lets-place__container">
+							<h2 class="lets-place__title">let's discuss making your interior like a dream place!</h2>
+							<div class="lets-place__content">
+								<div data-fls-text="" class="lets-place__text">
 									<p>Contact us below to work together to build your amazing interior</p>
 								</div>
-								<div class="blockhead__actions actions-blockhead">
-									<a href="contact-us.html" data-fls-button="" class="actions-blockhead__button button button--white">Contact Us</a>
+								<div class="lets-place__actions">
+									<a href="contacts.html" target="_blank" data-fls-button="" class="lets-place__button button button--white">Contact Us</a>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
+				</div>
 			</main>
 			<footer data-fls-footer="" class="footer">
 				<div class="footer__container">
 					<div class="footer__items items-footer">
-						<a href="home.html" class="items-footer__logo">
+						<a href="index.html" target="_blank" class="items-footer__logo">
 							<img src="./assets/img/logo.svg" alt="Logo">
 						</a>
 						<div class="items-footer__text">One of the best furniture agency.</div>
 					</div>
 					<div class="footer__body body-footer">
-						<div class="body-footer__label">Enter  your email to get the laterst news</div>
-						<form class="body-footer__form form-footer" action="#">
-							<input type="text" name="form[email]" data-error="Error" placeholder="Email Address" class="form-footer__input">
+						<div class="body-footer__label">Enter your email to get the laterst news</div>
+						<form data-fls-form="" method="POST" class="body-footer__form form-footer" action="#">
+							<input required type="email" name="form[email]" data-fls-form-errtext="Error" placeholder="Email Address" class="form-footer__input">
 							<button type="submit" class="form-footer__button --icon-arrow"></button>
 						</form>
 						<div class="body-footer__social social-footer">
 							<div class="social-footer__items">
 								<h5 class="social-footer__title">Follow us On</h5>
 								<div class="social-footer__body">
-									<div class="social-footer__link --icon-facebook"></div>
-									<div class="social-footer__link --icon-instagram"></div>
-									<div class="social-footer__link --icon-tiktok"></div>
-									<div class="social-footer__link --icon-youtube"></div>
+									<a href="#" class="social-footer__link social-footer__link--icon-facebook"></a>
+									<a href="#" class="social-footer__link social-footer__link--icon-instagram"></a>
+									<a href="#" class="social-footer__link social-footer__link--icon-tiktok"></a>
+									<a href="#" class="social-footer__link social-footer__link--icon-youtube"></a>
 								</div>
 							</div>
 						</div>
@@ -287,65 +284,5 @@
 				</div>
 			</footer>
 		</div>
-		<ul id="fls-dev-panel">
-			<li>
-				<a href="teams.html">teams</a>
-			</li>
-			<li>
-				<a href="services.html">services</a>
-			</li>
-			<li>
-				<a href="portfolio.html">portfolio</a>
-			</li>
-			<li>
-				<a href="portfolio-details.html">portfolio-details</a>
-			</li>
-			<li>
-				<a href="index.html">index</a>
-			</li>
-			<li>
-				<a href="contact-us.html">contact-us</a>
-			</li>
-			<li>
-				<a href="about.html">about</a>
-			</li>
-		</ul>
-		<style>
-			#fls-dev-panel{
-				position: fixed;
-				left: 10px;
-				padding: 15px 25px 15px 15px;
-				border-radius: 0 10px 10px 0;
-				top: 10%;
-				color: #ffffff;
-				background-color: rgba(51, 51, 51, 0.5);
-				transform: translate(-100%, 0px);
-				max-height: 80svh;
-				overflow: auto;
-				transition: all 300ms;
-				z-index: 9999;
-				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-			}
-			#fls-dev-panel li{
-				list-style:none;
-			}
-			#fls-dev-panel hr{
-				border-bottom: 1px solid;
-			}
-			#fls-dev-panel:hover{
-				left: 0px;
-				transform: translate(0, 0);
-			}
-			#fls-dev-panel a{
-				text-decoration: none;
-				color: inherit;
-			}
-			#fls-dev-panel a:hover {
-				text-decoration: underline;
-			}
-			#fls-dev-panel li:not(:last-child) {
-				margin-bottom: 10px;
-			}
-		</style>
 	</body>
 </html>

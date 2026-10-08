@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Contacts</title>
+		<script type="module" crossorigin="" src="./js/contacts.min.js?v=1791456286513"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1791456286513">
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1791456286513">
+		<link rel="stylesheet" crossorigin="" href="./css/contacts.min.css?v=1791456286513">
+		<link rel="stylesheet" crossorigin="" href="./css/label.min.css?v=1791456286513">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a href="index.html" target="_blank" class="header__logo">
+						<img src="./assets/img/logo.svg" alt="Logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index.html" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="about.html" class="menu__link">About Us</a>
+								</li>
+								<li class="menu__item">
+									<a href="services.html" class="menu__link">Services</a>
+								</li>
+								<li class="menu__item">
+									<a href="teams.html" class="menu__link">Our Teams</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<div data-fls-dynamic=".menu__body, 768" class="header__actions actions-header">
+						<a href="contacts.html" target="_blank" data-fls-button="" class="actions-header__button button">Contact Us</a>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-contacts="" class="contacts">
+					<section data-fls-contactshero="" data-fls-watcher="" data-fls-watcher-once="" class="contacts-hero">
+						<div class="contacts-hero__container">
+							<div data-fls-blockhead="" class="contacts-hero__blockhead blockhead blockhead--center">
+								<h2 class="blockhead__title">Contact Us</h2>
+								<div class="blockhead__text">
+									<p>
+										It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+									</p>
+								</div>
+							</div>
+							<form data-fls-form="" action="#" method="POST" class="contacts-hero__form form-contacts">
+								<div class="form-contacts__body">
+									<div class="form-contacts__wrap">
+										<div class="form-contacts__items">
+											<div class="form-contacts__line">
+												<label for="i-1" class="form-contacts__label">First Name</label>
+												<input id="i-1" data-fls-input="" required autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Error" placeholder="First Name" class="form-contacts__input input">
+											</div>
+											<div class="form-contacts__line">
+												<label for="i-2" class="form-contacts__label">Last Name</label>
+												<input id="i-2" required data-fls-input="" autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Error" placeholder="Last Name" class="form-contacts__input input">
+											</div>
+										</div>
+										<div class="form-contacts__line">
+											<label for="i-3" class="form-contacts__label">Email</label>
+											<input id="i-3" required data-fls-input="" autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Error" placeholder="Email" class="form-contacts__input input">
+										</div>
+										<div class="form-contacts__line">
+											<label for="i-4" class="form-contacts__label">Phone Number</label>
+											<div class="form-contacts__item">
+												<select class="form-contacts__select" name="form[]" data-fls-select="" data-fls-select-modif="form">
+													<option value="1" selected>US</option>
+													<option value="2">UA</option>
+													<option value="3">PL</option>
+												</select>
+												<input id="i-4" data-fls-input="" autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Error" required placeholder="Phone Number" class="form-contacts__input input">
+											</div>
+										</div>
+										<div class="form-contacts__line">
+											<label class="form-contacts__label">Message</label>
+											<textarea data-fls-input="" autocomplete="off" name="form[]" placeholder="Your Message" class="form-contacts__input input"></textarea>
+										</div>
+									</div>
+									<div class="form-contacts__actions actions-contacts">
+										<button data-fls-button="" type="submit" class="actions-contacts__button button">Send Message</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+					<section data-fls-contactsaddress="" data-fls-watcher="" data-fls-watcher-once="" class="contacts-address">
+						<div class="contacts-address__container">
+							<div data-fls-label="" class="contacts-address__desc">Location</div>
+							<div class="contacts-address__body">
+								<div class="contacts-address__items">
+									<div class="contacts-address__item">
+										<h2 class="contacts-address__title">Visit Our Stores</h2>
+										<div class="contacts-address__text">
+											<p>Find us at these locations.</p>
+										</div>
+									</div>
+									<div class="contacts-address__item">
+										<div class="contacts-address__label">Email</div>
+										<a href="mailto:dananz@gmail.com" class="contacts-address__link">dananz@gmail.com</a>
+									</div>
+									<div class="contacts-address__item">
+										<div class="contacts-address__label">Phone</div>
+										<a href="tel:+628150021000" class="contacts-address__link">+62 815 002 1000</a>
+									</div>
+								</div>
+								<div class="contacts-address__column column-address">
+									<article class="column-address__item">
+										<h3 class="column-address__title">Jakarta</h3>
+										<div class="column-address__text">
+											<p>
+												Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.
+											</p>
+										</div>
+									</article>
+									<article class="column-address__item">
+										<h3 class="column-address__title">Surakarta</h3>
+										<div class="column-address__text">
+											<p>
+												Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.
+											</p>
+										</div>
+									</article>
+									<article class="column-address__item">
+										<h3 class="column-address__title">Yogyakarta</h3>
+										<div class="column-address__text">
+											<p>
+												Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.
+											</p>
+										</div>
+									</article>
+									<article class="column-address__item">
+										<h3 class="column-address__title">Bandung</h3>
+										<div class="column-address__text">
+											<p>
+												Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.
+											</p>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section data-fls-letsplace="" data-fls-watcher="" data-fls-watcher-once="" class="lets-place">
+						<div class="lets-place__container">
+							<h2 class="lets-place__title">let's discuss making your interior like a dream place!</h2>
+							<div class="lets-place__content">
+								<div data-fls-text="" class="lets-place__text">
+									<p>Contact us below to work together to build your amazing interior</p>
+								</div>
+								<div class="lets-place__actions">
+									<a href="contacts.html" target="_blank" data-fls-button="" class="lets-place__button button button--white">Contact Us</a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__items items-footer">
+						<a href="index.html" target="_blank" class="items-footer__logo">
+							<img src="./assets/img/logo.svg" alt="Logo">
+						</a>
+						<div class="items-footer__text">One of the best furniture agency.</div>
+					</div>
+					<div class="footer__body body-footer">
+						<div class="body-footer__label">Enter your email to get the laterst news</div>
+						<form data-fls-form="" method="POST" class="body-footer__form form-footer" action="#">
+							<input required type="email" name="form[email]" data-fls-form-errtext="Error" placeholder="Email Address" class="form-footer__input">
+							<button type="submit" class="form-footer__button --icon-arrow"></button>
+						</form>
+						<div class="body-footer__social social-footer">
+							<div class="social-footer__items">
+								<h5 class="social-footer__title">Follow us On</h5>
+								<div class="social-footer__body">
+									<a href="#" class="social-footer__link social-footer__link--icon-facebook"></a>
+									<a href="#" class="social-footer__link social-footer__link--icon-instagram"></a>
+									<a href="#" class="social-footer__link social-footer__link--icon-tiktok"></a>
+									<a href="#" class="social-footer__link social-footer__link--icon-youtube"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

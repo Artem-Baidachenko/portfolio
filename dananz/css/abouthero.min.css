@@ -1,0 +1,1 @@
+@media(width<20em){.abouthero{padding-block:1.875rem}}@media(width>=20em) and (width<76.875em){.abouthero{padding-block:calc(clamp(1.875rem,1.21566rem + 3.2967vw,3.75rem))}}@media(width>=76.875em){.abouthero{padding-block:3.75rem}}

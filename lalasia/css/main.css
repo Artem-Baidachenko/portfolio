@@ -967,7 +967,7 @@ body {
     font-size: 0.875rem;
   }
   .footer__menus {
-    gap: 1.875rem;
+    gap: 1.25rem;
   }
   .footer__title {
     font-size: 1.125rem;
@@ -1058,7 +1058,7 @@ body {
     font-size: clamp( 0.875rem , 0.79078947368125rem  +  0.4210526316vw , 1.125rem );
   }
   .footer__menus {
-    gap: clamp( 1.875rem , 0.401315789475rem  +  7.3684210526vw , 6.25rem );
+    gap: clamp( 1.25rem , -0.43421052631875rem  +  8.4210526316vw , 6.25rem );
   }
   .footer__title {
     font-size: clamp( 1.125rem , 1.08289473684375rem  +  0.2105263158vw , 1.25rem );

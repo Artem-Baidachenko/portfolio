@@ -16,7 +16,6 @@
   align-items: center;
 }
 .cardproducts .card-details__link {
-  width: 37.5rem;
   aspect-ratio: 1;
   overflow: hidden;
 }
@@ -291,6 +290,11 @@
   }
   [data-fls-price] {
     font-size: clamp( 1.5rem , 1.07894736841875rem  +  2.1052631579vw , 2.75rem );
+  }
+}
+@media (width >= 62em) {
+  .cardproducts .card-details__link {
+    width: 37.5rem;
   }
 }
 @media (width >= 79.375em) {

@@ -304,6 +304,7 @@
 @media (width <= 34.375em) {
   .news .body-topics__header {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 @media (max-width: 30em) {

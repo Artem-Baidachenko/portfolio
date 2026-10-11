@@ -7,12 +7,12 @@
 }
 @media (width < 20em) {
   [data-fls-text] {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 }
 @media (width >= 20em) and (width < 79.375em) {
   [data-fls-text] {
-    font-size: clamp( 0.875rem , 0.79078947368125rem  +  0.4210526316vw , 1.125rem );
+    font-size: clamp( 1rem , 0.95789473684375rem  +  0.2105263158vw , 1.125rem );
   }
 }
 @media (width >= 79.375em) {

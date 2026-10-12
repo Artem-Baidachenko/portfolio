@@ -81,6 +81,13 @@
 .view-catalog__link--icon-filter {
   display: flex;
   gap: 0.75rem;
+  font-size: 1.25rem;
+}
+.view-catalog__link--icon-grid {
+  font-size: 1.375rem;
+}
+.view-catalog__link--icon-list {
+  font-size: 1.375rem;
 }
 html:not([data-fls-touch]) .view-catalog__link:hover {
   color: var(--orange-color);
@@ -110,6 +117,11 @@ html:not([data-fls-touch]) .view-catalog__link:hover {
     border-radius: 0 0 1rem 1rem;
   }
 }
+@media (width <= 30em) {
+  .view-catalog__link {
+    font-size: 1.5rem;
+  }
+}
 @media (width < 30em) {
   .catalog-settings__leftside {
     flex-grow: 1;
@@ -120,9 +132,6 @@ html:not([data-fls-touch]) .view-catalog__link:hover {
   .view-catalog {
     flex-grow: 1;
     justify-content: space-between;
-  }
-  .view-catalog__link {
-    font-size: 1.5rem;
   }
   .option-catalog__item {
     flex-grow: 1;
@@ -141,15 +150,6 @@ html:not([data-fls-touch]) .view-catalog__link:hover {
   .shop .ourproducts__cards--list .body-ourproducts {
     padding-inline: 0.625rem;
   }
-  .view-catalog__link--icon-filter {
-    font-size: 1rem;
-  }
-  .view-catalog__link--icon-grid {
-    font-size: 1rem;
-  }
-  .view-catalog__link--icon-list {
-    font-size: 1rem;
-  }
 }
 @media (width >= 20em) and (width < 81.25em) {
   .shop .ourproducts {
@@ -161,15 +161,6 @@ html:not([data-fls-touch]) .view-catalog__link:hover {
   .shop .ourproducts__cards--list .body-ourproducts {
     padding-inline: clamp( 0.625rem , 0.01275510204375rem  +  3.0612244898vw , 2.5rem );
   }
-  .view-catalog__link--icon-filter {
-    font-size: clamp( 1rem , 0.9183673469375rem  +  0.4081632653vw , 1.25rem );
-  }
-  .view-catalog__link--icon-grid {
-    font-size: clamp( 1rem , 0.87755102040625rem  +  0.612244898vw , 1.375rem );
-  }
-  .view-catalog__link--icon-list {
-    font-size: clamp( 1rem , 0.87755102040625rem  +  0.612244898vw , 1.375rem );
-  }
 }
 @media (width >= 81.25em) {
   .shop .ourproducts {
@@ -180,14 +171,5 @@ html:not([data-fls-touch]) .view-catalog__link:hover {
   }
   .shop .ourproducts__cards--list .body-ourproducts {
     padding-inline: 2.5rem;
-  }
-  .view-catalog__link--icon-filter {
-    font-size: 1.25rem;
-  }
-  .view-catalog__link--icon-grid {
-    font-size: 1.375rem;
-  }
-  .view-catalog__link--icon-list {
-    font-size: 1.375rem;
   }
 }

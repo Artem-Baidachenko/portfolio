@@ -319,8 +319,6 @@ body {
   position: absolute;
   top: 85%;
   z-index: 5;
-}
-.sub-menu {
   display: flex;
 }
 .sub-menu__block {
@@ -540,7 +538,6 @@ body {
 
 [data-fls-quantity-value] {
   color: var(--textColor);
-  padding-inline: 0.3125rem;
 }
 
 .bottom-cart__fullprice:not(:last-child) {
@@ -550,6 +547,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .fullprice {
   display: flex;
   justify-content: space-between;
@@ -1063,6 +1061,11 @@ body::after {
     height: 26.25rem;
   }
 }
+@media (width < 57.5em){
+  .menu__item {
+    padding-block: 0.3125rem;
+  }
+}
 @media (width <= 48em){
   .menu__item:nth-child(2)::after {
     display: none;
@@ -1075,13 +1078,16 @@ body::after {
     opacity: 1;
     visibility: visible;
   }
+  .menu__sub-menu {
+    padding: 0.9375rem;
+  }
   .sub-menu {
     position: relative;
     width: 100%;
     left: 0;
-  }
-  .sub-menu {
     flex-direction: column;
+    translate: 0 0;
+    top: 0;
   }
   .sub-menu__block:not(:last-child) {
     margin-bottom: 1.25rem;
@@ -1107,6 +1113,7 @@ body::after {
   }
   .cart__body {
     width: 23.75rem;
+    right: -6.875rem;
   }
   .contacts-footer__item {
     max-width: 100%;
@@ -1213,9 +1220,6 @@ body::after {
   }
 }
 @media (width < 48em){
-  .menu__item {
-    padding-block: 0.625rem;
-  }
   [data-fls-header-scroll].--header-scroll .header__container {
     min-height: 2.5rem;
   }
@@ -1234,9 +1238,19 @@ body::after {
     height: 6.25rem;
   }
 }
+@media (width < 30em){
+  .bottom-cart__button {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .item-cart__image {
+    width: 7.5rem;
+  }
+}
 @media (width < 25.625em){
   .cart__body {
     width: 17.5rem;
+    right: -3.125rem;
   }
   .item-cart {
     align-items: flex-start;
@@ -1372,11 +1386,6 @@ body::after {
     font-size: clamp( 1.25rem , 0.92346938775625rem  +  1.6326530612vw , 2.25rem );
   }
 }
-@media (width >= 48em) and (width < 120em){
-  .menu__item {
-    padding-block: clamp( 0.625rem , 6.25e-8rem  +  1.3020833333vw , 1.5625rem );
-  }
-}
 @media (min-width: 48em){
   .footer summary:not(:last-child) {
     margin-bottom: 1.25rem;
@@ -1385,6 +1394,11 @@ body::after {
 @media (width >= 48.0625em){
   .footer__picture {
     display: block;
+  }
+}
+@media (width >= 57.5em) and (width < 120em){
+  .menu__item {
+    padding-block: clamp( 0.3125rem , -0.8375rem  +  2vw , 1.5625rem );
   }
 }
 @media (width >= 81.25em){

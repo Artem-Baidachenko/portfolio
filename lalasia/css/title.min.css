@@ -1,0 +1,1 @@
+[data-fls-title]{font-weight:700;line-height:1.3;color:var(--textColor)}@media(width<20em){[data-fls-title]{font-size:1.125rem}}@media(width>=20em) and (width<79.375em){[data-fls-title]{font-size:calc(clamp(1.125rem,.99868rem + .63158vw,1.5rem))}}@media(width>=79.375em){[data-fls-title]{font-size:1.5rem}}

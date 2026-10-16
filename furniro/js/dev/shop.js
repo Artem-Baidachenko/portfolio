@@ -17,4 +17,15 @@ if (gridBtn && listBtn && productsCards) {
 		productsCards.classList.add("ourproducts__cards--list");
 	});
 }
+var searchInput = document.querySelector(".form-popup__input");
+var searchBlock = document.querySelector(".block-search");
+searchInput.addEventListener("input", () => {
+	if (searchInput.value.trim().length > 0) {
+		searchBlock.style.opacity = "1";
+		searchBlock.style.pointerEvents = "auto";
+	} else {
+		searchBlock.style.opacity = "0";
+		searchBlock.style.pointerEvents = "none";
+	}
+});
 //#endregion

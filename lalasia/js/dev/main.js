@@ -346,6 +346,7 @@ document.querySelector("[data-fls-header-scroll]") && window.addEventListener("l
 //#endregion
 //#region src/components/forms/addtocart/addtocart.js
 function addToCart() {
+	document.removeEventListener("click", addToCartAction);
 	document.addEventListener("click", addToCartAction);
 	const cartBody = document.querySelector(".cart__body");
 	const cart = document.querySelector(".cart");
